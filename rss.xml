@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title></title>
+        <link>undefined</link>
+        <description>undefined</description>
+        <lastBuildDate>Wed, 05 Oct 2022 12:19:21 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Joplin Pages Publisher</generator>
+        <item>
+            <title><![CDATA[Publisher]]></title>
+            <guid>2a86731e60194bb686efba9e300db073</guid>
+            <pubDate>Wed, 05 Oct 2022 10:39:47 GMT</pubDate>
+            <content:encoded><![CDATA[<h1 id="publisher">Publisher</h1>
+<p>The greetings message link to the Github page.<br />
+Welcome!<br />
+It seems that this is your first time of using this plugin. Recommend strongly to read a very short and simple User Guide in <a title="https://github.com/ylc395/joplin-plugin-pages-publisher/wiki/User-Guide" href="https://github.com/ylc395/joplin-plugin-pages-publisher/wiki/User-Guide">https://github.com/ylc395/joplin-plugin-pages-publisher/wiki/User-Guide</a></p>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>
