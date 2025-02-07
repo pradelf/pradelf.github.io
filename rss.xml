@@ -4,7 +4,7 @@
         <title></title>
         <link>undefined</link>
         <description>undefined</description>
-        <lastBuildDate>Fri, 07 Feb 2025 22:25:06 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 07 Feb 2025 22:37:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Joplin Pages Publisher</generator>
         <item>
@@ -25,7 +25,7 @@
 </ol>
 <hr />
 <p>Sous <a title="https://platform.openai.com/tokenizer" href="https://platform.openai.com/tokenizer">ce lien</a>, se trouve le tokenizer d'OpenAI qui permet d'évaluer le nombre de tokens presents dans un texte.</p>
-<p>Ici <a title="https://www.vellum.ai/llm-leaderboard" href="https://www.vellum.ai/llm-leaderboard">un lien vers un comparateur de modèle</a> LLM en performance et prix.</p>
+<p>Ici <a title="https://www.vellum.ai/llm-leaderboard" href="https://www.vellum.ai/llm-leaderboard">un lien vers un comparateur de modèle</a> LLM en performance et prix. Ce site sert de ressource informative pour évaluer et comparer les modèles de langage, facilitant ainsi la prise de décisions pour les utilisateurs cherchant à optimiser leur utilisation de l'IA.</p>
 ]]></content:encoded>
         </item>
         <item>
