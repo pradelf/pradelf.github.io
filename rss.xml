@@ -4,7 +4,7 @@
         <title></title>
         <link>undefined</link>
         <description>undefined</description>
-        <lastBuildDate>Fri, 07 Feb 2025 22:02:11 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 07 Feb 2025 22:07:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Joplin Pages Publisher</generator>
         <item>
@@ -23,6 +23,8 @@
 <li><a title="https://chat.mistral.ai/chat" href="https://chat.mistral.ai/chat">Mistral</a> de <a title="https://mistral.ai/en" href="https://mistral.ai/en">Mistral</a> : société française avec son petit frère opensource <a title="https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1" href="https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1">Mixtral</a> 🇫🇷</li>
 <li><a title="https://www.deepseek.com" href="https://www.deepseek.com">Deepseek</a> de Deepseek : le "game changer" venu de Chine avec semble-t-il un budget moindre $6M 🇨🇳</li>
 </ol>
+<hr />
+<p>Sous <a title="https://platform.openai.com/tokenizer" href="https://platform.openai.com/tokenizer">ce lien</a>, se trouve le tokenizer d'OpenAI qui permet d'évaluer le nombre de tokens presents dans un texte.</p>
 ]]></content:encoded>
         </item>
         <item>
