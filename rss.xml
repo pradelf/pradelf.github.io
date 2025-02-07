@@ -4,7 +4,7 @@
         <title></title>
         <link>undefined</link>
         <description>undefined</description>
-        <lastBuildDate>Fri, 07 Feb 2025 21:46:56 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 07 Feb 2025 22:02:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Joplin Pages Publisher</generator>
         <item>
@@ -20,7 +20,8 @@
 <li><a title="https://dashboard.cohere.com" href="https://dashboard.cohere.com">Cohere</a> de <a title="https://cohere.com" href="https://cohere.com">Cohere</a> :  un modèle LLM interessant et canadien. 🇨🇦</li>
 <li><a title="https://www.meta.ai" href="https://www.meta.ai">Meta AI</a>  de <a title="https://www.meta.com/fr/" href="https://www.meta.com/fr/">Meta</a> : pas disponible en ligne depuis la France, modèle LLM du créateur de Facebook.  🇺🇸Version open source disponible : LLama.  🇺🇸</li>
 <li><a title="https://www.perplexity.ai" href="https://www.perplexity.ai">Perplexity</a> de Perplexity AI : axé moteur de recherche 🇺🇸</li>
-<li><a title="https://chat.mistral.ai/chat" href="https://chat.mistral.ai/chat">Mistral</a> de <a title="https://mistral.ai/en" href="https://mistral.ai/en">Mistral</a> : société française 🇫🇷</li>
+<li><a title="https://chat.mistral.ai/chat" href="https://chat.mistral.ai/chat">Mistral</a> de <a title="https://mistral.ai/en" href="https://mistral.ai/en">Mistral</a> : société française avec son petit frère opensource <a title="https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1" href="https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1">Mixtral</a> 🇫🇷</li>
+<li><a title="https://www.deepseek.com" href="https://www.deepseek.com">Deepseek</a> de Deepseek : le "game changer" venu de Chine avec semble-t-il un budget moindre $6M 🇨🇳</li>
 </ol>
 ]]></content:encoded>
         </item>
