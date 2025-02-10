@@ -4,9 +4,20 @@
         <title></title>
         <link>undefined</link>
         <description>undefined</description>
-        <lastBuildDate>Fri, 07 Feb 2025 22:37:53 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 10 Feb 2025 15:49:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Joplin Pages Publisher</generator>
+        <item>
+            <title><![CDATA[Ikigai]]></title>
+            <guid>98464c3c804946b5b04698e9c6238824</guid>
+            <pubDate>Mon, 10 Feb 2025 15:45:27 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Ikigai<br />
+<a title="https://fr.wikipedia.org/wiki/Ikigai" href="https://fr.wikipedia.org/wiki/Ikigai">Gestion de projet personnel</a> : 4 piliers</p>
+<p><img src="/_resources/913e176c1b454075bdcbba9b04c07bdb.svg" /></p>
+<p><a title="https://yes78.org/parcours-recherche-emploi/" href="https://yes78.org/parcours-recherche-emploi/">Vision YES</a> : 3 piliers</p>
+<p><img src="/_resources/a22accd9c2ba42c48130971340a78f89.jpg" /></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Frontier AI Models]]></title>
             <guid>25b1b673dd65412398734f1c81020a0a</guid>
