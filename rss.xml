@@ -4,7 +4,7 @@
         <title></title>
         <link>undefined</link>
         <description>undefined</description>
-        <lastBuildDate>Thu, 03 Apr 2025 16:51:24 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Apr 2025 17:25:59 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Joplin Pages Publisher</generator>
         <item>
@@ -127,6 +127,145 @@ Ajoute ensuite les <strong>contraintes spécifiques</strong>.</p>
 <p><strong>Structurer si besoin avec “Rôle + Tâche + Contexte + Objectif”</strong></p>
 </li>
 </ul>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[ The Design-To-Cost Manifold]]></title>
+            <guid>d8420e935d0644d699250912a0a5fa99</guid>
+            <pubDate>Thu, 03 Apr 2025 16:47:56 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Voici un <strong>résumé en français</strong> de l’article <em>« The Design-To-Cost Manifold »</em> présenté par Edwin B. Dean (NASA Langley Research Center) en 1990 :</p>
+<hr />
+<h2 id="jigsaw-objectif-de-larticle">🧩 <strong>Objectif de l’article</strong></h2>
+<p>L'article propose une méthode mathématique pour <strong>quantifier</strong> et <strong>optimiser le design-to-cost</strong>, en particulier dans le domaine spatial (véhicules de lancement, satellites). Il introduit l'idée que la <strong>complexité</strong>, bien plus que la <strong>masse</strong>, est le facteur clé de réduction de coûts.</p>
+<hr />
+<h2 id="hammer_and_wrench-1-méthodes-design-to-cost-vs-design-for-cost">🛠️ <strong>1. Méthodes Design-to-Cost vs Design-for-Cost</strong></h2>
+<ul>
+<li>
+<p><strong>Design-to-Cost</strong> :<br />
+On fixe un <strong>objectif de coût</strong> comme exigence du système, au même titre que la performance technique. Problème : il se peut qu’aucune solution ne satisfasse toutes les exigences (techniques + coûts), ce qui peut être découvert trop tard.</p>
+</li>
+<li>
+<p><strong>Design-for-Cost</strong> :<br />
+On considère le <strong>coût comme fonction objectif</strong>, qu’on cherche à <strong>minimiser</strong> tout en respectant les exigences techniques. Cette approche permet une <strong>optimisation analytique</strong> et plus réaliste.</p>
+</li>
+</ul>
+<hr />
+<h2 id="1234-2-fondement-mathématique">🔢 <strong>2. Fondement mathématique</strong></h2>
+<ul>
+<li>
+<p>L’approche s’appuie sur les <strong>variétés différentiables</strong> (differentiable manifolds), permettant d’utiliser des équations différentielles pour explorer l’espace des solutions qui respectent un coût constant (la « manifold » design-to-cost).</p>
+</li>
+<li>
+<p>Deux équations différentielles permettent :</p>
+<ul>
+<li>
+<p>de rester sur une <strong>courbe à coût constant</strong></p>
+</li>
+<li>
+<p>ou d’aller dans la direction de la <strong>plus forte variation de coût</strong> (design-for-cost)</p>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="scales-3-étude-de-cas-le-compromis-masse-complexité">⚖️ <strong>3. Étude de cas : le compromis Masse / Complexité</strong></h2>
+<ul>
+<li>
+<p>Les ingénieurs ont tendance à chercher à <strong>réduire la masse</strong> pour réduire les coûts. Mais l’article montre que le <strong>coût est peu sensible à la masse</strong> seule.</p>
+</li>
+<li>
+<p>En revanche, <strong>réduire la complexité</strong> (du système et du processus de production) permet des économies bien plus significatives.</p>
+</li>
+</ul>
+<h3 id="modèle-proposé">Modèle proposé :</h3>
+<p>Le coût est modélisé par :<br />
+ <strong>c = e^θ × w^φ</strong><br />
+où :</p>
+<ul>
+<li>
+<p><strong>c</strong> : coût</p>
+</li>
+<li>
+<p><strong>θ</strong> : complexité</p>
+</li>
+<li>
+<p><strong>w</strong> : masse</p>
+</li>
+<li>
+<p><strong>φ</strong> : effet d’échelle</p>
+</li>
+</ul>
+<p>Cela permet de tracer des <strong>courbes à coût constant</strong> dans l’espace (masse, complexité), et d’estimer la <strong>sensibilité du coût</strong> à une variation de masse ou de complexité.</p>
+<hr />
+<h2 id="chart_with_downwards_trend-résultats-clés">📉 <strong>Résultats clés</strong></h2>
+<ul>
+<li>
+<p>Une réduction de masse de 20 % n’entraîne qu’une <strong>baisse marginale du coût</strong>, sauf si la complexité est <strong>réduite simultanément</strong>.</p>
+</li>
+<li>
+<p>Les pratiques industrielles tendent à réduire la masse <strong>sans maîtriser la complexité</strong>, ce qui limite l’impact sur le coût.</p>
+</li>
+<li>
+<p>La <strong>meilleure stratégie</strong> consiste à réduire <strong>ensemble la masse et la complexité</strong>, selon un <strong>chemin optimal quantifié</strong> par les équations dérivées.</p>
+</li>
+</ul>
+<hr />
+<h2 id="brain-comment-réduire-la-complexité">🧠 <strong>Comment réduire la complexité ?</strong></h2>
+<ul>
+<li>
+<p><strong>Complexité de fabrication</strong> :</p>
+<ul>
+<li>
+<p>Amélioration de la <strong>qualité de conception</strong></p>
+</li>
+<li>
+<p>Moins de tolérances critiques</p>
+</li>
+<li>
+<p>Moins de pièces à assembler</p>
+</li>
+<li>
+<p>Meilleure usinabilité, matériaux simples</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Complexité du système</strong> :</p>
+<ul>
+<li>
+<p>Simplification fonctionnelle</p>
+</li>
+<li>
+<p>Moins d’intégration ou d’interdépendances</p>
+</li>
+<li>
+<p>Modèles modulaires</p>
+</li>
+<li>
+<p>Utilisation de technologies éprouvées</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Méthodes suggérées</strong> :</p>
+<ul>
+<li>
+<p>Méthode <strong>Taguchi</strong> (conception robuste)</p>
+</li>
+<li>
+<p>Générateur de complexité (PRICE H™)</p>
+</li>
+<li>
+<p>Philosophie "Keep it simple"</p>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="white_check_mark-conclusion">✅ <strong>Conclusion</strong></h2>
+<p>La <strong>complexité</strong> est un levier majeur et sous-estimé pour maîtriser les coûts de développement et de production.<br />
+Les méthodes traditionnelles centrées sur la <strong>masse</strong> sont souvent inefficaces si la <strong>complexité</strong> n’est pas réduite en parallèle.<br />
+La compréhension et la <strong>quantification de la complexité</strong> sont essentielles pour optimiser les coûts dans les systèmes techniques complexes, comme ceux du secteur spatial.</p>
 ]]></content:encoded>
         </item>
         <item>
@@ -486,213 +625,6 @@ Stage ingénieur long et VIE (VSNE)</li>
 <li>Gestion budgétaire (MS Project, Excel)</li>
 </ul>
 <hr />
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Résumé sur Koltès]]></title>
-            <guid>735819b9b9644e39955f739161f93cbf</guid>
-            <pubDate>Fri, 22 Nov 2024 11:43:00 GMT</pubDate>
-            <content:encoded><![CDATA[<hr />
-<h1 id="résumé-sur-koltès">Résumé sur Koltès</h1>
-<p>22/11/2024 12:57</p>
-<p>Voici un résumé synthétique complet sur deux pages pour les cours concernant Bernard-Marie Koltès, mettant en avant les problématiques, arguments et exemples essentiels :</p>
-<hr />
-<h3 id="1-introduction-à-bernard-marie-koltès-et-ses-œuvres"><strong>1. Introduction à Bernard-Marie Koltès et ses œuvres</strong></h3>
-<ul>
-<li><strong>Œuvres étudiées</strong> :
-<ul>
-<li><em>Combat de nègre et de chiens</em> (1989), pièce située sur un chantier africain, explorant l’opposition culturelle, la violence, et les rapports de pouvoir.</li>
-<li><em>Dans la solitude des champs de coton</em> (1986), dialogue philosophique entre deux figures antagonistes : le Dealer et le Client, centré sur le désir et l’échange marchand.</li>
-</ul>
-</li>
-<li><strong>Contexte et inspirations</strong> :
-<ul>
-<li><em>Combat</em> naît des expériences de Koltès en Afrique et explore l’enfermement symbolisé par le chantier.</li>
-<li><em>Solitude</em> privilégie une abstraction scénographique et temporelle, se déroulant dans un espace urbain indéfini évoquant un « non-lieu » marginal .</li>
-</ul>
-</li>
-</ul>
-<hr />
-<h3 id="2-problématiques-principales"><strong>2. Problématiques principales</strong></h3>
-<h4 id="a-la-parole-comme-moteur-dramaturgique">a) <strong>La parole comme moteur dramaturgique</strong></h4>
-<ul>
-<li>Koltès construit ses pièces autour de la parole, omniprésente mais souvent stérile. Ses dialogues sont des « faux-dialogues », où les personnages parlent pour eux-mêmes ou pour imposer leur volonté sans écouter véritablement l’autre.</li>
-<li>Dans <em>Solitude</em>, le dialogue devient un agôn verbal, un espace de transaction qui symbolise une quête d’échange humain impossible. L’idée de « deal » incarne cet affrontement verbal.</li>
-</ul>
-<h4 id="b-lespace-scénique-entre-contrainte-et-abstraction">b) <strong>L’espace scénique : entre contrainte et abstraction</strong></h4>
-<ul>
-<li><em>Combat</em> met en scène un espace clos et oppressant, symbolisant les tensions coloniales et l’incapacité des personnages à s’échapper de leur condition.</li>
-<li><em>Solitude</em> se déroule dans un espace urbain indéterminé, décrit comme un « no man’s land ». Cette indétermination spatiale accentue l’idée d’isolement et d’exclusion sociale, tout en laissant libre cours aux interprétations scéniques.</li>
-</ul>
-<h4 id="c-le-temps-et-la-structure-narrative">c) <strong>Le temps et la structure narrative</strong></h4>
-<ul>
-<li>Koltès déconstruit les conventions temporelles théâtrales. Ses pièces progressent par fragments, adoptant des techniques proches du cinéma (champ/contrechamp, zoom dramatique). Cette temporalité flottante amplifie les tensions latentes entre les personnages .</li>
-</ul>
-<hr />
-<h3 id="3-typologies-et-conception-des-personnages"><strong>3. Typologies et conception des personnages</strong></h3>
-<ul>
-<li><strong>Les personnages selon Koltès</strong> :
-<ul>
-<li>Ils ne sont ni psychologiques (comme dans le théâtre moderne), ni des types sociaux (comme chez Diderot). Ils sont des porteurs de parole, définis par leurs relations conflictuelles.</li>
-</ul>
-</li>
-<li><strong>Typologies proposées par Anne Ubersfeld</strong> :
-<ul>
-<li>Les « silhouettes » comme les gardiens invisibles dans <em>Combat</em>.</li>
-<li>Les couples ambivalents comme le Client et le Dealer (<em>Solitude</em>), ou Horn et Cal (<em>Combat</em>), qui alternent entre complicité et antagonisme.</li>
-<li>La figure féminine (Léone dans <em>Combat</em>), souvent attirée par l’interdit et l’altérité .</li>
-</ul>
-</li>
-</ul>
-<hr />
-<h3 id="4-esthétique-et-influence-cinématographique"><strong>4. Esthétique et influence cinématographique</strong></h3>
-<ul>
-<li>Koltès, grand amateur de cinéma, s’inspire des techniques narratives cinématographiques :
-<ul>
-<li>Utilisation du « zoom » dramatique, comme dans <em>Combat</em> où le personnage d’Alboury est découvert progressivement, rappelant un effet de caméra.</li>
-<li>Influence des films de genre, comme les films de kung-fu pour <em>Solitude</em>, où le combat verbal retarde l’affrontement physique final .</li>
-</ul>
-</li>
-<li>La collaboration avec Patrice Chéreau a amplifié l’impact de cette esthétique dans ses mises en scène, créant des espaces scéniques grandioses mais conformes à la tension dramatique propre aux pièces de Koltès .</li>
-</ul>
-<hr />
-<h3 id="5-thématiques-essentielles"><strong>5. Thématiques essentielles</strong></h3>
-<h4 id="a-la-violence-et-le-désir">a) <strong>La violence et le désir</strong></h4>
-<ul>
-<li>Les œuvres de Koltès explorent la violence inhérente aux rapports humains, qu’elle soit coloniale (<em>Combat</em>) ou symbolique (<em>Solitude</em>). Le désir y est omniprésent, souvent frustré ou dévié en confrontation .</li>
-</ul>
-<h4 id="b-lincommunicabilité">b) <strong>L’incommunicabilité</strong></h4>
-<ul>
-<li>L’échec de la communication est un thème récurrent, souligné par des dialogues qui tournent en rond ou par des monologues déguisés en échange .</li>
-</ul>
-<h4 id="c-laltérité-et-la-marginalité">c) <strong>L’altérité et la marginalité</strong></h4>
-<ul>
-<li>Les personnages koltésiens, souvent isolés ou en marge, incarnent une quête d’identité face à l’Autre, qu’il s’agisse d’un étranger (<em>Combat</em>) ou d’un opposant (<em>Solitude</em>).</li>
-</ul>
-<hr />
-<h3 id="6-classicisme-et-modernité-dans-lécriture"><strong>6. Classicisme et modernité dans l’écriture</strong></h3>
-<ul>
-<li>Koltès joue sur les tensions entre modernité et classicisme :
-<ul>
-<li>Il conserve une structure dramatique classique (actes, dialogues), mais la déconstruit pour mieux subvertir les attentes.</li>
-<li>Ses personnages et espaces oscillent entre symbolisme et réalisme, créant une dramaturgie hybride .</li>
-</ul>
-</li>
-</ul>
-<hr />
-<h3 id="conclusion"><strong>Conclusion</strong></h3>
-<p>Le théâtre de Bernard-Marie Koltès explore les paradoxes de l’humain : une quête d’échange vouée à l’échec, des espaces de liberté apparente qui deviennent des prisons, et une violence latente au cœur des relations humaines. À travers une écriture riche, influencée par le cinéma et teintée d’un classicisme revisité, Koltès propose une œuvre profondément moderne qui résonne encore aujourd’hui.</p>
-<hr />
-<p>Ce résumé devrait couvrir les éléments essentiels des cours en offrant une vision globale et concise.</p>
-<p>Voici des exemples précis issus des œuvres <strong>"Combat de nègre et de chiens"</strong> et <strong>"Dans la solitude des champs de coton"</strong> pour illustrer les arguments principaux.</p>
-<hr />
-<h3 id="1-la-parole-comme-moteur-dramaturgique"><strong>1. La parole comme moteur dramaturgique</strong></h3>
-<h4 id="dans-la-solitude-des-champs-de-coton"><em>Dans la solitude des champs de coton</em> :</h4>
-<ul>
-<li>Le dialogue entre le Client et le Dealer illustre la communication comme confrontation, plutôt qu'échange. Exemple : le Dealer déclare :
-<blockquote>
-<p>« Dites-moi la chose que vous désirez et que je peux vous fournir » (p. 12),<br />
-tandis que le Client répond par un refus implicite :<br />
-« Je marche, tout court » (p. 13).<br />
-Ce faux-dialogue reflète l’idée que chaque personnage impose son discours sans chercher réellement à comprendre l’autre.</p>
-</blockquote>
-</li>
-</ul>
-<h4 id="combat-de-nègre-et-de-chiens"><em>Combat de nègre et de chiens</em> :</h4>
-<ul>
-<li>Les dialogues entre Horn et Alboury fonctionnent comme des négociations impossibles. Horn, le chef de chantier, tente d’imposer sa logique coloniale à Alboury, qui réclame le corps de son frère. Exemple :
-<blockquote>
-<p>Horn : « Qu’est-ce que vous voulez ? »<br />
-Alboury : « Le corps de mon frère, ou la justice. »<br />
-Ce face-à-face met en scène un échange verbal tendu, où les mots révèlent les rapports de domination et l’impossibilité de trouver un terrain d’entente.</p>
-</blockquote>
-</li>
-</ul>
-<hr />
-<h3 id="2-lespace-scénique-et-son-symbolisme"><strong>2. L’espace scénique et son symbolisme</strong></h3>
-<h4 id="dans-la-solitude-des-champs-de-coton-2"><em>Dans la solitude des champs de coton</em> :</h4>
-<ul>
-<li>L’espace est volontairement indéfini, comme le montre la didascalie initiale :
-<blockquote>
-<p>« Un deal est une transaction commerciale portant sur des valeurs prohibées ou strictement contrôlées, et qui se conclut dans des espaces neutres, indéfinis, et non prévus à cet usage. »<br />
-Cela crée un non-lieu qui reflète la marginalité des personnages et la dimension intemporelle du texte. La description du Client :<br />
-« J’allais de cette fenêtre éclairée, derrière moi, là-haut, à cette autre fenêtre éclairée, là-bas devant moi » (p. 13),<br />
-évoque un univers urbain oppressant sans jamais le nommer explicitement.</p>
-</blockquote>
-</li>
-</ul>
-<h4 id="combat-de-nègre-et-de-chiens-2"><em>Combat de nègre et de chiens</em> :</h4>
-<ul>
-<li>Le chantier est un espace clos, isolé, qui symbolise l’enfermement des personnages dans leurs rôles sociaux et dans une violence omniprésente. La réplique de Horn à Léone :
-<blockquote>
-<p>« Il n’y a rien ici pour vous distraire. Rien, sauf la chaleur et le bruit des machines. »<br />
-souligne l’absence de liberté et d’échappatoire dans cet environnement hostile .</p>
-</blockquote>
-</li>
-</ul>
-<hr />
-<h3 id="3-la-violence-et-le-désir"><strong>3. La violence et le désir</strong></h3>
-<h4 id="dans-la-solitude-des-champs-de-coton-3"><em>Dans la solitude des champs de coton</em> :</h4>
-<ul>
-<li>Le dialogue tourne autour du désir comme tension fondamentale. Le Dealer dit :
-<blockquote>
-<p>« Ce que vous voulez, c’est ce que je vous propose. Et ce que je veux, c’est que vous le vouliez. »<br />
-Cette déclaration illustre l’enjeu sous-jacent de pouvoir et de possession. La violence verbale monte graduellement, culminant dans l’évocation d’un affrontement physique imminent :<br />
-« Essayez de m’atteindre, vous n’y arriverez pas. » (p. 60).</p>
-</blockquote>
-</li>
-</ul>
-<h4 id="combat-de-nègre-et-de-chiens-3"><em>Combat de nègre et de chiens</em> :</h4>
-<ul>
-<li>La violence s’exprime par la confrontation physique et psychologique entre les personnages, notamment lorsque Horn évoque les chiens comme des instruments de menace :
-<blockquote>
-<p>« Ils [les chiens] mordent ceux qui n’ont rien à faire ici. »<br />
-Cette violence symbolise le pouvoir des colonisateurs sur les locaux et l’animosité irréconciliable entre leurs mondes.</p>
-</blockquote>
-</li>
-</ul>
-<hr />
-<h3 id="4-les-personnages-comme-porteurs-de-tensions"><strong>4. Les personnages comme porteurs de tensions</strong></h3>
-<h4 id="dans-la-solitude-des-champs-de-coton-4"><em>Dans la solitude des champs de coton</em> :</h4>
-<ul>
-<li>Le Client et le Dealer sont deux figures sans passé explicite, porteurs d’idées opposées : le Client représente un refus de l’échange imposé, tandis que le Dealer incarne le marchand qui impose ses règles. Le Dealer affirme :
-<blockquote>
-<p>« Dans cette rue, à cette heure, c’est moi qui décide. »<br />
-Cette opposition structure l’ensemble de la pièce et illustre la tension entre domination et résistance.</p>
-</blockquote>
-</li>
-</ul>
-<h4 id="combat-de-nègre-et-de-chiens-4"><em>Combat de nègre et de chiens</em> :</h4>
-<ul>
-<li>Alboury est une figure d’altérité irréductible, représentant la dignité face à la violence coloniale. Sa réplique à Horn :
-<blockquote>
-<p>« Mon frère ne reviendra pas, mais vous allez répondre pour sa mort. »<br />
-place son personnage dans un rôle moral, contrastant avec l’ambivalence des autres protagonistes comme Léone, qui oscille entre attirance pour Alboury et son statut dans le chantier.</p>
-</blockquote>
-</li>
-</ul>
-<hr />
-<h3 id="5-influence-cinématographique"><strong>5. Influence cinématographique</strong></h3>
-<h4 id="combat-de-nègre-et-de-chiens-5"><em>Combat de nègre et de chiens</em> :</h4>
-<ul>
-<li>L’entrée d’Alboury est décrite comme une révélation progressive, rappelant un zoom au cinéma. Horn dit :
-<blockquote>
-<p>« J’avais bien vu, de loin, quelqu’un derrière l’arbre. »<br />
-Cette technique souligne l’importance de l’invisible et du dévoilement dans la dramaturgie de Koltès.</p>
-</blockquote>
-</li>
-</ul>
-<h4 id="dans-la-solitude-des-champs-de-coton-5"><em>Dans la solitude des champs de coton</em> :</h4>
-<ul>
-<li>La montée de la tension verbale jusqu’au climax final évoque les structures narratives des films de kung-fu. Le Dealer joue sur la menace implicite :
-<blockquote>
-<p>« Je vous propose de parler, avant qu’il soit trop tard. »<br />
-La violence physique reste en suspens, accentuant l’aspect cinématographique de la pièce.</p>
-</blockquote>
-</li>
-</ul>
-<hr />
-<p>Ces exemples montrent comment Koltès développe des tensions dramaturgiques complexes à travers des dialogues, des espaces symboliques et des personnages énigmatiques. Ils enrichissent les problématiques clés tout en illustrant leur profondeur thématique.</p>
 ]]></content:encoded>
         </item>
     </channel>
