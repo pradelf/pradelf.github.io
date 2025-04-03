@@ -4,9 +4,131 @@
         <title></title>
         <link>undefined</link>
         <description>undefined</description>
-        <lastBuildDate>Thu, 03 Apr 2025 14:36:27 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Apr 2025 16:51:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Joplin Pages Publisher</generator>
+        <item>
+            <title><![CDATA[Bon prompt pour LLM]]></title>
+            <guid>accae4646dde4a3e90c91dc98c18c7ab</guid>
+            <pubDate>Thu, 03 Apr 2025 16:49:57 GMT</pubDate>
+            <content:encoded><![CDATA[<h2 id="dart-structure-dun-bon-prompt">🎯 <strong>STRUCTURE D’UN BON PROMPT</strong></h2>
+<h3 id="white_check_mark-1-sois-clair-sur-ton-objectif">✅ <strong>1. Sois clair sur ton objectif</strong></h3>
+<p>Commence par définir ce que <strong>tu veux vraiment obtenir</strong>. Pose-toi la question :</p>
+<blockquote>
+<p>« Quelle réponse idéale j’aimerais recevoir ? »</p>
+</blockquote>
+<h3 id="white_check_mark-2-fournis-le-contexte-nécessaire">✅ <strong>2. Fournis le <strong>contexte</strong> nécessaire</strong></h3>
+<p>Plus l’IA comprend ta situation ou ton besoin, plus elle peut adapter sa réponse.</p>
+<h3 id="white_check_mark-3-sois-spécifique">✅ <strong>3. Sois spécifique</strong></h3>
+<p>Évite les généralités. Indique :</p>
+<ul>
+<li>
+<p>Le format attendu (texte, tableau, liste, code…)</p>
+</li>
+<li>
+<p>Le niveau de détail souhaité</p>
+</li>
+<li>
+<p>La langue ou le ton (formel, informel, professionnel, vulgarisé…)</p>
+</li>
+</ul>
+<h3 id="white_check_mark-4-ajoute-des-contraintes-ou-préférences">✅ <strong>4. Ajoute des contraintes ou préférences</strong></h3>
+<p>Exemples :</p>
+<ul>
+<li>
+<p>Nombre de mots ou de lignes</p>
+</li>
+<li>
+<p>Style d’écriture (ton pédagogue, ton marketing, ton technique…)</p>
+</li>
+<li>
+<p>Ce qu’il faut <strong>éviter</strong> de faire ou de dire</p>
+</li>
+</ul>
+<hr />
+<h2 id="brain-exemples-par-type-de-demande">🧠 <strong>EXEMPLES PAR TYPE DE DEMANDE</strong></h2>
+<hr />
+<h3 id="writing_hand-1-aide-à-la-rédaction-cv-lettre-de-motivation-linkedin">✍️ <strong>1. Aide à la rédaction (CV, lettre de motivation, LinkedIn...)</strong></h3>
+<h4 id="x-mauvais-prompt">❌ Mauvais prompt :</h4>
+<blockquote>
+<p>Aide-moi à améliorer mon CV.</p>
+</blockquote>
+<h4 id="white_check_mark-bon-prompt">✅ Bon prompt :</h4>
+<blockquote>
+<p>Je postule à un poste de Directeur de l’innovation dans une grande entreprise industrielle. Peux-tu reformuler le résumé de mon CV en 5 lignes maximum, avec un ton professionnel et percutant, en mettant en avant mes 20 ans d’expérience dans l’énergie, mes compétences en R&amp;D et mon leadership international ?</p>
+</blockquote>
+<hr />
+<h3 id="books-2-recherche-dinformations">📚 <strong>2. Recherche d’informations</strong></h3>
+<h4 id="x-mauvais-prompt-2">❌ Mauvais prompt :</h4>
+<blockquote>
+<p>Dis-m’en plus sur l’hydrogène.</p>
+</blockquote>
+<h4 id="white_check_mark-bon-prompt-2">✅ Bon prompt :</h4>
+<blockquote>
+<p>Peux-tu m’expliquer en 200 mots maximum, dans un langage accessible mais rigoureux, les principaux enjeux de l’utilisation de l’hydrogène vert comme vecteur énergétique dans l’industrie lourde en Europe ?</p>
+</blockquote>
+<hr />
+<h3 id="computer-3-aide-au-codage-technique">💻 <strong>3. Aide au codage / technique</strong></h3>
+<h4 id="x-mauvais-prompt-3">❌ Mauvais prompt :</h4>
+<blockquote>
+<p>Aide-moi à faire un code Python.</p>
+</blockquote>
+<h4 id="white_check_mark-bon-prompt-3">✅ Bon prompt :</h4>
+<blockquote>
+<p>Je veux écrire un script Python qui lit un fichier CSV avec des données de température, calcule la moyenne par mois, et génère un graphique avec matplotlib. Peux-tu m’écrire ce script avec des commentaires clairs pour chaque étape ?</p>
+</blockquote>
+<hr />
+<h3 id="receipt-4-analyse-de-texte-résumé">🧾 <strong>4. Analyse de texte / résumé</strong></h3>
+<h4 id="x-mauvais-prompt-4">❌ Mauvais prompt :</h4>
+<blockquote>
+<p>Résume ce texte.</p>
+</blockquote>
+<h4 id="white_check_mark-bon-prompt-4">✅ Bon prompt :</h4>
+<blockquote>
+<p>Voici un article de 1 200 mots sur la stratégie hydrogène de l’Allemagne. Résume-le en moins de 10 lignes, en conservant les idées clés, avec un ton neutre et informatif. Ne fais pas de paraphrase inutile.</p>
+</blockquote>
+<hr />
+<h3 id="bookmark_tabs-5-révision-ou-reformulation">📑 <strong>5. Révision ou reformulation</strong></h3>
+<h4 id="x-mauvais-prompt-5">❌ Mauvais prompt :</h4>
+<blockquote>
+<p>Améliore ce texte.</p>
+</blockquote>
+<h4 id="white_check_mark-bon-prompt-5">✅ Bon prompt :</h4>
+<blockquote>
+<p>Voici une introduction d’article scientifique en anglais. Peux-tu la reformuler pour la rendre plus fluide, sans changer le fond, et en gardant un ton académique ?</p>
+</blockquote>
+<hr />
+<h2 id="jigsaw-astuce-bonus-le-format-role-tâche-contexte-objectif">🧩 <strong>ASTUCE BONUS : LE FORMAT “ROLE + TÂCHE + CONTEXTE + OBJECTIF”</strong></h2>
+<p>Un super prompt suit cette structure :</p>
+<blockquote>
+<p><strong>Agis comme [rôle]</strong> et <strong>réalise [tâche]</strong> dans le cadre de [contexte], afin de [objectif].<br />
+Ajoute ensuite les <strong>contraintes spécifiques</strong>.</p>
+</blockquote>
+<h4 id="mag-exemple">🔍 Exemple :</h4>
+<blockquote>
+<p>Agis comme un consultant en innovation technologique. Rédige une note de synthèse (1 page max) à destination d’un PDG d’ETI industrielle, expliquant pourquoi il est stratégique d’investir dans l’IA générative pour ses bureaux d’études. Sois clair, synthétique, et oriente vers des actions concrètes.</p>
+</blockquote>
+<hr />
+<h2 id="white_check_mark-récap-rapide-to-do-list-pour-un-bon-prompt">✅ <strong>RÉCAP RAPIDE : TO DO LIST POUR UN BON PROMPT</strong></h2>
+<ul>
+<li>
+<p><strong>Définir mon objectif</strong></p>
+</li>
+<li>
+<p><strong>Fournir du contexte</strong></p>
+</li>
+<li>
+<p><strong>Être spécifique sur ce que j’attends</strong></p>
+</li>
+<li>
+<p><strong>Ajouter des contraintes</strong></p>
+</li>
+<li>
+<p><strong>Structurer si besoin avec “Rôle + Tâche + Contexte + Objectif”</strong></p>
+</li>
+</ul>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Usage combiné du cycle en V et des méthodes Agile]]></title>
             <guid>b78345cebd034c32883f50c8b0bc3769</guid>
@@ -571,24 +693,6 @@ La violence physique reste en suspens, accentuant l’aspect cinématographique 
 </ul>
 <hr />
 <p>Ces exemples montrent comment Koltès développe des tensions dramaturgiques complexes à travers des dialogues, des espaces symboliques et des personnages énigmatiques. Ils enrichissent les problématiques clés tout en illustrant leur profondeur thématique.</p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Multi Technology Promotion Média]]></title>
-            <guid>9d868c5b2e624f5ab93606d0350d4606</guid>
-            <pubDate>Sun, 03 Nov 2024 16:42:16 GMT</pubDate>
-            <content:encoded><![CDATA[<h2 id="easy-promotion">Easy Promotion</h2>
-<p>I started in September 2024 a multi media channel promotion. Thanks yo flutter framework, the use of Dart Language promoted by google allows to develop from one source information media for :</p>
-<ul>
-<li>web site</li>
-<li>ios app</li>
-<li>android app</li>
-<li>windows app</li>
-<li>Mac Os X app</li>
-<li>and Linux app.</li>
-</ul>
-<p>My personal design will be published on <a title="https://promotion.francispradel.fr" href="https://promotion.francispradel.fr">promotion.francispradel.fr</a> soon.<br />
-Anyway my linkedin page stays reachable on : <a title="https://cv.francispradel.fr" href="https://cv.francispradel.fr">cv.francispradel.fr</a></p>
 ]]></content:encoded>
         </item>
     </channel>
