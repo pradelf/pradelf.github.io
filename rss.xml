@@ -4,9 +4,120 @@
         <title></title>
         <link>undefined</link>
         <description>undefined</description>
-        <lastBuildDate>Thu, 03 Apr 2025 14:20:31 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Apr 2025 14:25:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Joplin Pages Publisher</generator>
+        <item>
+            <title><![CDATA[Usage combiné du cycle en V et des méthodes Agile]]></title>
+            <guid>b78345cebd034c32883f50c8b0bc3769</guid>
+            <pubDate>Thu, 03 Apr 2025 14:01:10 GMT</pubDate>
+            <content:encoded><![CDATA[<h1 id="utilisation-conjointe-du-cycle-en-v-et-des-méthodes-agile-dans-les-systèmes-à-logiciel-prépondérant-aéronautique-éolien-oil-gas-ferroviaire-dispositifs-médicaux-etc">Utilisation conjointe du cycle en V et des méthodes Agile dans les systèmes à logiciel prépondérant (aéronautique, éolien, oil &amp; gas, ferroviaire, dispositifs médicaux, etc.)</h1>
+<h2 id="1-introduction">1. Introduction</h2>
+<p>Les systèmes à logiciel prépondérant (software-intensive systems) imposent des exigences élevées en matière de qualité, traçabilité, sécurité et certification.<br />
+Le <strong>cycle en V</strong> s’est historiquement imposé pour sa rigueur, mais ses limites face à la complexité et aux besoins évolutifs ont conduit à intégrer des <strong>pratiques Agiles</strong> plus flexibles.<br />
+L’approche hybride répond à un double objectif :<br />
+- Maintenir la <strong>traçabilité et la rigueur</strong> exigées par les normes (ex : DO-178C, IEC 62304),<br />
+- Bénéficier de la <strong>réactivité et l’efficacité</strong> des itérations agiles.</p>
+<hr />
+<h2 id="2-contexte-et-enjeux">2. Contexte et enjeux</h2>
+<h3 id="exigences-typiques-des-systèmes-critiques">Exigences typiques des systèmes critiques :</h3>
+<p>- Fort besoin de <strong>validation/traçabilité</strong><br />
+- Dépendance aux <strong>normes industrielles</strong><br />
+- Multiplicité des intervenants (MOA, MOE, fournisseurs)<br />
+- Long cycle de développement<br />
+- Risque d’écart entre besoin exprimé et solution livrée</p>
+<hr />
+<h2 id="3-modèles-hybrides-documentés">3. Modèles hybrides documentés</h2>
+<p>a. V-Modell XT (Allemagne)</p>
+<p>- Cycles en V <strong>incrémentaux</strong> avec feedbacks<br />
+- Modèle modulaire configurable<br />
+- Utilisé en défense, IT publique</p>
+<h3 id="b-agile-v-ou-v-agile">b. Agile-V (ou V Agile)</h3>
+<p>- À gauche : planification (exigences, archi)<br />
+- En bas/droite : développement en mode <strong>Scrum</strong><br />
+- Tests dans les <strong>sprints</strong><br />
+- Validation dans le <strong>cadre du V</strong></p>
+<h3 id="c-double-v">c. Double V</h3>
+<p>- 1er V : <strong>modélisation/simulation</strong><br />
+- 2e V : <strong>réalisation/intégration</strong><br />
+- Utilisé avec <strong>prototypage virtuel</strong></p>
+<h3 id="d-safe-v-model">d. SAFe + V model</h3>
+<p>- Intégration de <strong>SAFe</strong> dans des projets en V<br />
+- Gouvernance par <strong>Agile Release Trains</strong><br />
+- Alignement des backlogs et exigences formelles</p>
+<hr />
+<h2 id="4-répartition-des-rôles">4. Répartition des rôles</h2>
+<table>
+<thead>
+<tr>
+<th>Rôle V classique</th>
+<th>Rôle Agile</th>
+<th>Rôle dans l’hybride</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maîtrise d’Ouvrage (MOA)</td>
+<td>Product Owner</td>
+<td>Priorise les besoins, maintient le backlog</td>
+</tr>
+<tr>
+<td>Maîtrise d’Œuvre (MOE)</td>
+<td>Scrum Team</td>
+<td>Implémente, itère sur les composants</td>
+</tr>
+<tr>
+<td>Architecte Système</td>
+<td>System Architect</td>
+<td>Définit la cohérence et les interfaces</td>
+</tr>
+<tr>
+<td>Responsable validation</td>
+<td>QA / Test Lead</td>
+<td>Conçoit et suit les plans de tests</td>
+</tr>
+<tr>
+<td>Comité de pilotage</td>
+<td>RTE / Epic Owner</td>
+<td>Supervise stratégie et conformité</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="5-normes-et-outils-associés">5. Normes et outils associés</h2>
+<p>- <strong>DO-178C</strong> (aéronautique)<br />
+- <strong>ISO 26262</strong> (automobile)<br />
+- <strong>IEC 62304</strong> (dispositifs médicaux)<br />
+- <strong>Outils recommandés</strong> :<br />
+  - <em>Polarion, Jama, Codebeamer</em> : exigences + backlog<br />
+  - <em>JIRA + XRay</em> : tests + traçabilité<br />
+  - <em>MBSE</em> (ex : Capella, SysML) pour la conception système. <em>Modelio</em></p>
+<hr />
+<h2 id="6-bonnes-pratiques">6. Bonnes pratiques</h2>
+<p>1. <strong>Cadencer l’agilité avec les jalons du V</strong><br />
+2. <strong>Documenter les artefacts agiles</strong> (User stories, DoD)<br />
+3. <strong>Assurer la traçabilité bidirectionnelle</strong><br />
+4. <strong>Mettre en place une gouvernance bimodale</strong><br />
+5. <strong>Former les équipes au double langage</strong> norme + agilité</p>
+<hr />
+<h2 id="7-illustration">7. Illustration</h2>
+<p><img src="/_resources/36253b21b5564043b9de82ab038c1363.png" /></p>
+<p>A_set_of_four_diagrams_in_the_French_language_illu.png</p>
+<p>A_set_of_four_diagrams_in_the_French_language_illu.png</p>
+<p>A_set_of_four_diagrams_in_the_French_language_illu.png</p>
+<p>A_set_of_four_diagrams_in_the_French_language_illu.png</p>
+<p>Modèles hybrides et répartition des rôles</p>
+<p> </p>
+<hr />
+<h2 id="8-conclusion">8. Conclusion</h2>
+<p>L’intégration du cycle en V avec les méthodes Agile est non seulement possible mais **stratégiquement avantageuse** dans les projets à forte composante logicielle.<br />
+Les modèles hybrides offrent souplesse et rigueur, à condition d’organiser clairement les rôles, les processus, et la traçabilité.<br />
+C’est une voie d’avenir pour les systèmes critiques soumis à l’évolution rapide des besoins et des technologies.</p>
+<hr />
+<p> </p>
+<p> </p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Schéma synthétique du cycle en V]]></title>
             <guid>3986eb292dd14be8903498a69542d837</guid>
@@ -14,6 +125,7 @@
             <content:encoded><![CDATA[<h1 id="schéma-synthétique-du-cycle-en-v">Schéma synthétique du cycle en V</h1>
 <p>Le <strong>cycle en V</strong> est un modèle de développement séquentiel qui se caractérise par une phase descendante de conception suivie d’une phase ascendante de tests et de validation​ <a title="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=Le%20cycle%20en%20V%20,l%27approche%20s%C3%A9quentielle%20et%20lin%C3%A9aire%20de" href="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=Le%20cycle%20en%20V%20,l%27approche%20s%C3%A9quentielle%20et%20lin%C3%A9aire%20de">fr.wikipedia.org</a>. Autrement dit, chaque étape de conception (spécification) trouve son écho dans une étape de test correspondante sur le versant ascendant du V​ <a title="https://asana.com/fr/resources/v-model#:~:text=Le%20cycle%20en%20V%20est,tests%20unitaires%2C%20int%C3%A9gration%2C%20acceptation" href="https://asana.com/fr/resources/v-model#:~:text=Le%20cycle%20en%20V%20est,tests%20unitaires%2C%20int%C3%A9gration%2C%20acceptation">asana.com</a>. Cette correspondance rigoureuse entre phases de conception et phases de validation confère au modèle sa forme en <strong>V</strong> symétrique caractéristique​ <a title="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=Il%20l%27enrichit%20cependant%20d%27activit%C3%A9s%20d%27int%C3%A9gration,correspondante%2C%20lui%20conf%C3%A9rant%20ainsi%20la" href="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=Il%20l%27enrichit%20cependant%20d%27activit%C3%A9s%20d%27int%C3%A9gration,correspondante%2C%20lui%20conf%C3%A9rant%20ainsi%20la">fr.wikipedia.org</a>, la branche gauche représentant le <strong>flux descendant</strong> (définition et réalisation du produit) et la branche droite le <strong>flux ascendant</strong> (vérification et validation du produit). Le schéma ci-dessous illustre cette structure : chaque niveau de la branche gauche est lié au niveau de test équivalent sur la branche droite, assurant une validation à chaque étape du cycle.</p>
 <p><img src="/_resources/ad22bf519edf47eda64e4bd5a4d143d2.png" /></p>
+<p>871cc9e984ef5aaac68fe3c455859488.png</p>
 <p>Schéma illustrant le modèle en V. La branche gauche (flux descendant) représente les phases de spécification et de réalisation, tandis que la branche droite (flux ascendant) représente les phases de test et de validation. Chaque étape de la phase de conception a un test associé dans la phase de validation, ce qui garantit la vérification du produit par rapport aux exigences définies à chaque niveau​.</p>
 <p><em><a title="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=Il%20l%27enrichit%20cependant%20d%27activit%C3%A9s%20d%27int%C3%A9gration,correspondante%2C%20lui%20conf%C3%A9rant%20ainsi%20la" href="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=Il%20l%27enrichit%20cependant%20d%27activit%C3%A9s%20d%27int%C3%A9gration,correspondante%2C%20lui%20conf%C3%A9rant%20ainsi%20la">fr.wikipedia.org</a></em></p>
 <h2 id="phases-de-conception-flux-descendant">Phases de conception (flux descendant)</h2>
@@ -52,7 +164,7 @@
 <h2 id="correspondance-et-validation-à-chaque-niveau">Correspondance et validation à chaque niveau</h2>
 <p>Chaque phase de spécification sur la branche gauche possède ainsi son <strong>miroir de validation</strong> sur la branche droite du V. Par exemple, les tests unitaires valident la bonne implémentation des composants définis lors de la conception détaillée, les tests d’intégration vérifient que l’architecture conçue en phase de conception générale fonctionne, les tests système valident que le produit final respecte les spécifications élaborées pendant l’analyse, et enfin les tests d’acceptation confirment que le produit satisfait les besoins initiaux du client​ <a title="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=codage%20%3B%20,20" href="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=codage%20%3B%20,20">fr.wikipedia.org</a> <a title="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=,sa%20conformit%C3%A9%20aux%20besoins%20exprim%C3%A9s" href="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=,sa%20conformit%C3%A9%20aux%20besoins%20exprim%C3%A9s">fr.wikipedia.org</a>. Ce découpage strict apporte une grande <strong>rigueur</strong> et une <strong>traçabilité</strong> : chaque exigence formulée en amont est associée à un ou plusieurs tests en aval, garantissant qu’aucun besoin n’est oublié et que le produit final est conforme aux attentes​ <a title="https://monday.com/blog/fr/gestion-du-travail/cycle-en-v/#:~:text=En%20outre%2C%20chaque%20%C3%A9tape%20de,%C3%A0%20chaque%20%C3%A9tape%20du%20projet" href="https://monday.com/blog/fr/gestion-du-travail/cycle-en-v/#:~:text=En%20outre%2C%20chaque%20%C3%A9tape%20de,%C3%A0%20chaque%20%C3%A9tape%20du%20projet">monday.com</a>.</p>
 <p><strong>En résumé,</strong> le schéma en V offre une vue d’ensemble claire du cycle de vie d’un projet, où l’on distingue nettement la progression descendante de la conception et la remontée ascendante de la validation. Cette représentation symétrique permet de visualiser facilement les liens de cause à effet entre chaque étape du développement et son processus de test associé, assurant une validation systématique à chaque niveau du projet et une qualité maîtrisée du produit final​ <a title="https://monday.com/blog/fr/gestion-du-travail/cycle-en-v/#:~:text=En%20outre%2C%20chaque%20%C3%A9tape%20de,%C3%A0%20chaque%20%C3%A9tape%20du%20projet" href="https://monday.com/blog/fr/gestion-du-travail/cycle-en-v/#:~:text=En%20outre%2C%20chaque%20%C3%A9tape%20de,%C3%A0%20chaque%20%C3%A9tape%20du%20projet">monday.com</a>.</p>
-<p><strong>Sources :</strong> Le modèle du cycle en V et ses étapes sont documentés par de nombreuses références, notamment Wikipédia​ <a title="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=Le%20cycle%20en%20V%20,s%C3%A9quentielle%20et%20lin%C3%A9aire%20de%20phases" href="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=Le%20cycle%20en%20V%20,s%C3%A9quentielle%20et%20lin%C3%A9aire%20de%20phases">fr.wikipedia.org</a> <a title="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=,18" href="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=,18">fr.wikipedia.org</a>, ainsi que des guides de gestion de projet récents​ <a title="https://asana.com/fr/resources/v-model#:~:text=Le%20cycle%20en%20V%20est,tests%20unitaires%2C%20int%C3%A9gration%2C%20acceptation" href="https://asana.com/fr/resources/v-model#:~:text=Le%20cycle%20en%20V%20est,tests%20unitaires%2C%20int%C3%A9gration%2C%20acceptation">asana.com</a>. Ces sources décrivent comment *« chaque étape de conception est suivie d’une phase de validation correspondante »*dans le cycle en V, depuis l’expression des besoins jusqu’aux tests d’acceptation, garantissant *« une grande rigueur et une traçabilité à chaque étape du projet »*​<a title="https://monday.com/blog/fr/gestion-du-travail/cycle-en-v/#:~:text=En%20outre%2C%20chaque%20%C3%A9tape%20de,%C3%A0%20chaque%20%C3%A9tape%20du%20projet" href="https://monday.com/blog/fr/gestion-du-travail/cycle-en-v/#:~:text=En%20outre%2C%20chaque%20%C3%A9tape%20de,%C3%A0%20chaque%20%C3%A9tape%20du%20projet">monday.com</a>.</p>
+<p><strong>Sources :</strong> Le modèle du cycle en V et ses étapes sont documentés par de nombreuses références, notamment Wikipédia​ <a title="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=Le%20cycle%20en%20V%20,s%C3%A9quentielle%20et%20lin%C3%A9aire%20de%20phases" href="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=Le%20cycle%20en%20V%20,s%C3%A9quentielle%20et%20lin%C3%A9aire%20de%20phases">fr.wikipedia.org</a> <a title="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=,18" href="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=,18">fr.wikipedia.org</a>, ainsi que des guides de gestion de projet récents​ <a title="https://asana.com/fr/resources/v-model#:~:text=Le%20cycle%20en%20V%20est,tests%20unitaires%2C%20int%C3%A9gration%2C%20acceptation" href="https://asana.com/fr/resources/v-model#:~:text=Le%20cycle%20en%20V%20est,tests%20unitaires%2C%20int%C3%A9gration%2C%20acceptation">asana.com</a>. Ces sources décrivent comment « chaque étape de conception est suivie d’une phase de validation correspondante » dans le cycle en V, depuis l’expression des besoins jusqu’aux tests d’acceptation, garantissant « une grande rigueur et une traçabilité à chaque étape du projet »<a title="https://monday.com/blog/fr/gestion-du-travail/cycle-en-v/#:~:text=En%20outre%2C%20chaque%20%C3%A9tape%20de,%C3%A0%20chaque%20%C3%A9tape%20du%20projet" href="https://monday.com/blog/fr/gestion-du-travail/cycle-en-v/#:~:text=En%20outre%2C%20chaque%20%C3%A9tape%20de,%C3%A0%20chaque%20%C3%A9tape%20du%20projet">monday.com</a>.</p>
 ]]></content:encoded>
         </item>
         <item>
@@ -477,17 +589,6 @@ La violence physique reste en suspens, accentuant l’aspect cinématographique 
 </ul>
 <p>My personal design will be published on <a title="https://promotion.francispradel.fr" href="https://promotion.francispradel.fr">promotion.francispradel.fr</a> soon.<br />
 Anyway my linkedin page stays reachable on : <a title="https://cv.francispradel.fr" href="https://cv.francispradel.fr">cv.francispradel.fr</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Publisher]]></title>
-            <guid>2a86731e60194bb686efba9e300db073</guid>
-            <pubDate>Wed, 05 Oct 2022 10:39:47 GMT</pubDate>
-            <content:encoded><![CDATA[<h1 id="publisher">Publisher</h1>
-<p>Nothing new…</p>
-<p>The greetings message link to the Github page.<br />
-Welcome!<br />
-It seems that this is your first time of using this plugin. Recommend strongly to read a very short and simple User Guide in <a title="https://github.com/ylc395/joplin-plugin-pages-publisher/wiki/User-Guide" href="https://github.com/ylc395/joplin-plugin-pages-publisher/wiki/User-Guide">https://github.com/ylc395/joplin-plugin-pages-publisher/wiki/User-Guide</a></p>
 ]]></content:encoded>
         </item>
     </channel>
