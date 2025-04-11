@@ -4,14 +4,48 @@
         <title></title>
         <link>undefined</link>
         <description>undefined</description>
-        <lastBuildDate>Fri, 11 Apr 2025 12:28:52 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Apr 2025 17:23:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Joplin Pages Publisher</generator>
+        <item>
+            <title><![CDATA[Différents sites et IA spécialisées]]></title>
+            <guid>16412ba681ef4a91868b02577febe2e2</guid>
+            <pubDate>Fri, 11 Apr 2025 12:33:06 GMT</pubDate>
+            <content:encoded><![CDATA[<h1 id="différents-sites-et-ia-spécialisées">Différents sites et IA spécialisées</h1>
+<h2 id="avatar-par-ia">Avatar par IA</h2>
+<h3 id="characterai">Character.ai</h3>
+<p>Site permettant de créer une IA avatar personnalisée. <br />
+<a title="https://character.ai" href="https://character.ai">https://character.ai</a></p>
+<h2 id="détecteur-dia">Détecteur d'IA</h2>
+<h3 id="gptzero">GPTZero</h3>
+<p>Site pour détecter si un texte est écrit par une IA.<br />
+<a title="https://gptzero.me" href="https://gptzero.me">https://gptzero.me</a></p>
+<h3 id="sapling">Sapling</h3>
+<p>Site pour détecter si un texte est écrit par une IA.<br />
+<a title="https://sapling.ai" href="https://sapling.ai">https://sapling.ai</a></p>
+<h3 id="copyleaks">Copyleaks</h3>
+<p>Analyse de texte basée sur l'IA pour aider à créer et à protéger le contenu original.<br />
+<a title="https://copyleaks.com/fr/" href="https://copyleaks.com/fr/">https://copyleaks.com</a></p>
+<h3 id="textguard">TextGuard</h3>
+<p>TextGuard est un outil éducatif innovant conçu pour aider les utilisateurs à vérifier l'originalité du texte et à améliorer son unicité par la paraphrase, sans perdre le sens original.<br />
+<a title="https://textguard.ai" href="https://textguard.ai">https://textguard.ai</a></p>
+<h2 id="rédacteur-ou-traducteur-par-ia">Rédacteur ou Traducteur par IA</h2>
+<p>Outil pour reformuler un texte ou le traduire grâce à une IA LLM.</p>
+<h3 id="deepl">DeepL</h3>
+<p><a title="https://www.deepl.com" href="https://www.deepl.com">https://www.deepl.com</a></p>
+<h3 id="grammarly">Grammarly</h3>
+<p>IA vérificateur de syntaxe et de grammaire.</p>
+<p><a title="https://www.grammarly.com" href="https://www.grammarly.com">https://www.grammarly.com</a></p>
+<h3 id="language-tool">Language tool</h3>
+<p>correcteur d'orthographe intelligent.<br />
+<a title="https://languagetool.org" href="https://languagetool.org">https://languagetool.org</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Bon prompt pour LLM]]></title>
             <guid>accae4646dde4a3e90c91dc98c18c7ab</guid>
             <pubDate>Thu, 03 Apr 2025 16:49:57 GMT</pubDate>
-            <content:encoded><![CDATA[<h2 id="dart-structure-dun-bon-prompt">🎯 <strong>STRUCTURE D’UN BON PROMPT</strong></h2>
+            <content:encoded><![CDATA[<h2 id="dart-structure-dun-bon-prompt-par-chatgpt">🎯 <strong>STRUCTURE D’UN BON PROMPT PAR CHATGPT</strong></h2>
 <h3 id="white_check_mark-1-sois-clair-sur-ton-objectif">✅ <strong>1. Sois clair sur ton objectif</strong></h3>
 <p>Commence par définir ce que <strong>tu veux vraiment obtenir</strong>. Pose-toi la question :</p>
 <blockquote>
@@ -571,57 +605,6 @@ Le terme Muda (無駄?, litt. « inutilité ») provient du japonais et signifie
 <p>Sous <a title="https://platform.openai.com/tokenizer" href="https://platform.openai.com/tokenizer">ce lien</a>, se trouve le tokenizer d'OpenAI qui permet d'évaluer le nombre de tokens presents dans un texte.</p>
 <h2 id="ici-un-lien-vers-un-comparateur-de-modèle-llm-en-performance-et-prix-ce-site-sert-de-ressource-informative-pour-évaluer-et-comparer-les-modèles-de-langage-facilitant-ainsi-la-prise-de-décisions-pour-les-utilisateurs-cherchant-à-optimiser-leur-utilisation-de-lia">Ici <a title="https://www.vellum.ai/llm-leaderboard" href="https://www.vellum.ai/llm-leaderboard">un lien vers un comparateur de modèle</a> LLM en performance et prix. Ce site sert de ressource informative pour évaluer et comparer les modèles de langage, facilitant ainsi la prise de décisions pour les utilisateurs cherchant à optimiser leur utilisation de l'IA.</h2>
 <p>Un service SaaS de modèle d'IA en serverless : <a title="https://modal.com" href="https://modal.com">Modal</a> .</p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Mon Curriculum vitæ]]></title>
-            <guid>42fb0288953241c2ab6a16dc0f34e87b</guid>
-            <pubDate>Fri, 07 Feb 2025 14:57:49 GMT</pubDate>
-            <content:encoded><![CDATA[<h1 id="mon-curriculum-vitæ">Mon Curriculum vitæ</h1>
-<h2 id="francis-pradel"><strong>Francis Pradel</strong></h2>
-<p><strong>Responsable R &amp; D Scientifique, Technique et Digital</strong></p>
-<hr />
-<p>francis.pradel@gmail.com<br />
-<a title="https://promotion.francispradel.fr" href="https://promotion.francispradel.fr">cliquer ici pour en savoir plus</a>.</p>
-<hr />
-<h3 id="éducation"><strong>Éducation</strong></h3>
-<p>1996-1998 • Docteur de l’École des Ponts ParisTech (Structures et Matériaux)<br />
-1990-1994 • Ingénieur diplômé de l’École Nationale des Ponts et Chaussées.</p>
-<hr />
-<h3 id="parcours-professionnel"><strong>Parcours Professionnel</strong></h3>
-<ul>
-<li>2022-2024 : FARECO FAYAT ENERGIE SERVICES<br />
-Responsable Développement Logiciel</li>
-<li>2018-2022 : FIVES STEIN<br />
-Responsable du Développement Logiciel et Digitalisation</li>
-<li>2012-2018 : IFP Energies nouvelles<br />
-Chef de Projets en Mécanique Appliquée et missions digitales</li>
-<li>2007-2012 : PREVIZNET<br />
-Directeur technique (CTO), associé fondateur</li>
-<li>1998-2008 : IFP<br />
-Chef de Projets en Mécanique Appliquée<br />
-Ingénieur de Recherche</li>
-<li>1996-1998 : ENPC<br />
-Doctorant en Mécanique</li>
-<li>1994-1995 :  PRODUITS PLASTIQUES PERFORMANTS<br />
-Stage ingénieur long et VIE (VSNE)</li>
-</ul>
-<hr />
-<h3 id="compétences-techniques"><strong>Compétences techniques</strong></h3>
-<ul>
-<li>Mécanique des Solides et Fulides</li>
-<li>Modélisation numérique : Mécanique (Abaqus, Fluent, DeepLines), Mathématiques (Maple, Matlab), Thermique (Abaqus, View3D)</li>
-<li>Développement Logiciel (C-C++, Java,Python)</li>
-<li>Génie Logiciel (Gitlab, Azure Devops, Jenkins)</li>
-<li>Développement Système (Powershell, bash, VMware, Hyper V, Docker)</li>
-<li>Gestion de la technologie</li>
-<li>le management et l'optimisation des processus</li>
-<li>Animation d'équipes multi culturelles</li>
-<li>Gestion d’équipe de bureau d'étude Mécanique et Thermique</li>
-<li>Gestion d’équipe de développement logiciel</li>
-<li>Gestion budgétaire (MS Project, Excel)</li>
-</ul>
-<hr />
 ]]></content:encoded>
         </item>
     </channel>
