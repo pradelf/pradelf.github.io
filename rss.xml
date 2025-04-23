@@ -4,15 +4,14 @@
         <title></title>
         <link>undefined</link>
         <description>undefined</description>
-        <lastBuildDate>Wed, 23 Apr 2025 16:02:08 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 23 Apr 2025 16:02:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Joplin Pages Publisher</generator>
         <item>
             <title><![CDATA[Raccourcis sur Mac OS X et Excel]]></title>
             <guid>2dcc56b862dd4443a3daa0ba2e6306ef</guid>
             <pubDate>Tue, 15 Apr 2025 09:36:19 GMT</pubDate>
-            <content:encoded><![CDATA[<p>Raccourcis sur Mac OS X et Excel</p>
-<h1 id="raccourcis-sur-mac-os-x-et-excel">Raccourcis sur Mac OS X et Excel</h1>
+            <content:encoded><![CDATA[<h1 id="raccourcis-sur-mac-os-x-et-excel">Raccourcis sur Mac OS X et Excel</h1>
 <p> </p>
 <p>Quand on utilise un Mac tous les jours, on souhaite accomplir ses tâches de routine le plus rapidement possible. Naviguer vers les boutons de menu avec le pointeur de sa souris interrompt son <strong>flux de travail</strong> et fait perdre un temps précieux. Apple propose une série de raccourcis Mac pour vous aider à travailler plus efficacement avec iMac ou MacBook. Il est donc utile de jeter un coup d’œil aux raccourcis macOS disponibles.</p>
 <p>En particulier pour les tâches récurrentes, il est bon de mémoriser les raccourcis Mac, qui non seulement simplifient le travail sur ordinateur mais le rendent aussi plus efficace. Bien que le trackpad des ordinateurs portables Apple fasse un excellent travail, une combinaison de touches MacBook facilite encore plus la vie.</p>
@@ -101,6 +100,10 @@
 <td>Afficher la barre d’outils du Finder</td>
 </tr>
 <tr>
+<td>⌘+ Maj + .</td>
+<td>Afficher/Masquer les fichiers cachés dans le dossier.</td>
+</tr>
+<tr>
 <td>⌘+ N</td>
 <td>Nouvelle fenêtre</td>
 </tr>
@@ -150,6 +153,7 @@
 </tr>
 </tbody>
 </table>
+<p> Vous pouvez également cliquer sur votre bureau et appuyer sur ⌘+ Maj + . pour afficher les fichiers Mac cachés sur votre bureau.</p>
 <h3 id="raccourcis-clavier-mac-pour-la-veille-déconnexion-et-mise-hors-tension">Raccourcis clavier Mac pour la veille, déconnexion et mise hors tension</h3>
 <table>
 <thead>
@@ -441,7 +445,6 @@
 </tr>
 </tbody>
 </table>
-<p> </p>
 <p> </p>
 <h2 id="les-raccourcis-excel">Les raccourcis EXCEL</h2>
 <p>Utiliser les raccourcis est parfois difficile au départ, mais une fois certains automatismes pris, ils nous facilitent la vie et économisent de nombreux clics et beaucoup de temps. Nous vous conseillons d'en faire quelques-uns petit à petit et au fur à mesure, ils deviendront une seconde nature. Le gain de productivité qu'ils apportent est indéniable, voici les principaux :</p>
