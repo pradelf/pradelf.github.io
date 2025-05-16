@@ -4,9 +4,33 @@
         <title></title>
         <link>undefined</link>
         <description>undefined</description>
-        <lastBuildDate>Wed, 23 Apr 2025 16:02:30 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 16 May 2025 10:35:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Joplin Pages Publisher</generator>
+        <item>
+            <title><![CDATA[Librairie pour la data en Data Science sous Python]]></title>
+            <guid>a393143661174e0dac8e05191fb0a676</guid>
+            <pubDate>Fri, 16 May 2025 10:16:55 GMT</pubDate>
+            <content:encoded><![CDATA[<h1 id="librairie-pour-la-data-en-data-science-sous-python">Librairie pour la data en Data Science sous Python</h1>
+<h2 id="pandas"><a title="Pandas" href="https://pandas.pydata.org">Pandas</a></h2>
+<p>Pandas est un outil d'analyse et de manipulation de données open source rapide, puissant, flexible et facile à utiliser, construit sur le langage de programmation Python.<br />
+Il s'agit de la librairie Python la plus populaire.</p>
+<h2 id="dask"><a title="Dask" href="https://www.dask.org">Dask</a></h2>
+<p>Dask  est un outil d'analyse et de manipulation de données open source parallèle, rapide et facile Python.</p>
+<ul>
+<li>Dask DataFrames utilise des pandas sous le capot, donc votre code actuel fonctionne probablement.<br />
+C'est plus rapide que Spark et plus facile aussi.</li>
+<li>Parallélisez votre code Python, quelle que soit la complexité. <br />
+Dask est flexible et prend en charge les dépendances arbitraires et la planification des tâches à grain fin.</li>
+<li>Utilisez Dask et NumPy/Xarray pour parcourir des téraoctets de données de tableau multidimensionnel dans des formats tels que HDF, NetCDF, TIFF ou Zarr.</li>
+<li>Utilisez Dask avec des bibliothèques d'apprentissage automatique courantes pour vous entraîner ou prédire sur de grands ensembles de données, en augmentant la précision du modèle en utilisant toutes vos données.</li>
+</ul>
+<p> </p>
+<h2 id="polar"><a title="Polar" href="https://pola.rs">Polar</a></h2>
+<p>Polars est une bibliothèque open source pour la manipulation de données, connue pour être l'une des solutions de traitement de données les plus rapides sur une seule machine. Il dispose d'une API bien structurée et typée qui est à la fois expressive et facile à utiliser.<br />
+<strong>Polars Cloud est en version bêta fermée</strong></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Raccourcis sur Mac OS X et Excel]]></title>
             <guid>2dcc56b862dd4443a3daa0ba2e6306ef</guid>
@@ -511,30 +535,30 @@
 <h2 id="avatar-par-ia">Avatar par IA</h2>
 <h3 id="characterai">Character.ai</h3>
 <p>Site permettant de créer une IA avatar personnalisée. <br />
-<a title="https://character.ai" href="https://character.ai">https://character.ai</a></p>
+https://character.ai</p>
 <h2 id="détecteur-dia">Détecteur d'IA</h2>
 <h3 id="gptzero">GPTZero</h3>
 <p>Site pour détecter si un texte est écrit par une IA.<br />
-<a title="https://gptzero.me" href="https://gptzero.me">https://gptzero.me</a></p>
+https://gptzero.me</p>
 <h3 id="sapling">Sapling</h3>
 <p>Site pour détecter si un texte est écrit par une IA.<br />
-<a title="https://sapling.ai" href="https://sapling.ai">https://sapling.ai</a></p>
+https://sapling.ai</p>
 <h3 id="copyleaks">Copyleaks</h3>
 <p>Analyse de texte basée sur l'IA pour aider à créer et à protéger le contenu original.<br />
 <a title="https://copyleaks.com/fr/" href="https://copyleaks.com/fr/">https://copyleaks.com</a></p>
 <h3 id="textguard">TextGuard</h3>
 <p>TextGuard est un outil éducatif innovant conçu pour aider les utilisateurs à vérifier l'originalité du texte et à améliorer son unicité par la paraphrase, sans perdre le sens original.<br />
-<a title="https://textguard.ai" href="https://textguard.ai">https://textguard.ai</a></p>
+https://textguard.ai</p>
 <h2 id="rédacteur-ou-traducteur-par-ia">Rédacteur ou Traducteur par IA</h2>
 <p>Outil pour reformuler un texte ou le traduire grâce à une IA LLM.</p>
 <h3 id="deepl">DeepL</h3>
-<p><a title="https://www.deepl.com" href="https://www.deepl.com">https://www.deepl.com</a></p>
+<p>https://www.deepl.com</p>
 <h3 id="grammarly">Grammarly</h3>
 <p>IA vérificateur de syntaxe et de grammaire.</p>
-<p><a title="https://www.grammarly.com" href="https://www.grammarly.com">https://www.grammarly.com</a></p>
+<p>https://www.grammarly.com</p>
 <h3 id="language-tool">Language tool</h3>
 <p>correcteur d'orthographe intelligent.<br />
-<a title="https://languagetool.org" href="https://languagetool.org">https://languagetool.org</a></p>
+https://languagetool.org</p>
 ]]></content:encoded>
         </item>
         <item>
@@ -1067,17 +1091,6 @@ Le réalisme magique est bien plus qu’un simple procédé narratif : c’est u
 <p>Cette méthode nécessite donc un effort de la part des cadres mais aussi des ouvriers qui doivent être capables d'expliquer leurs ressentiments sur tel ou tel poste.</p>
 <p>Il faut Chasser les Muda.<br />
 Le terme Muda (無駄?, litt. « inutilité ») provient du japonais et signifie le « gâchis » ou «gaspillage». Ce terme est devenu le concept central du système de production de Toyota et de la philosophie lean. Il s'accompagne des concepts de Muri (excès) et Mura (irrégularité), définis par Taiichi Ōno, fondateur de Toyota Production System.</p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Ikigai]]></title>
-            <guid>98464c3c804946b5b04698e9c6238824</guid>
-            <pubDate>Mon, 10 Feb 2025 15:45:27 GMT</pubDate>
-            <content:encoded><![CDATA[<p>Ikigai<br />
-<a title="https://fr.wikipedia.org/wiki/Ikigai" href="https://fr.wikipedia.org/wiki/Ikigai">Gestion de projet personnel</a> : 4 piliers</p>
-<p><img src="/_resources/913e176c1b454075bdcbba9b04c07bdb.svg" /></p>
-<p><a title="https://yes78.org/parcours-recherche-emploi/" href="https://yes78.org/parcours-recherche-emploi/">Vision YES</a> : 3 piliers</p>
-<p><img src="/_resources/a22accd9c2ba42c48130971340a78f89.jpg" /></p>
 ]]></content:encoded>
         </item>
     </channel>
