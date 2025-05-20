@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link rel="stylesheet" href="/_assets/main.css" />
+
+    <title>Usage combiné du cycle en V et des méthodes Agile - pradelf</title>
+  </head>
+  <body>
+    <div class="main">
+      <nav class="navigation">
+        <a href="/">pradelf</a>
+      </nav>
+      <article>
+        <header>
+          <h1 class="article-title">Usage combiné du cycle en V et des méthodes Agile</h1>
+          <div class="article-info">
+            <div>
+              <span
+                >Created At：<time datetime="1743688870583"
+                  >2025-04-03 16:01</time
+                ></span
+              >
+              <span
+                >Updated At：<time datetime="1743690944871"
+                  >2025-04-03 16:35</time
+                ></span
+              >
+            </div>
+            
+            <div>
+              Keywords: 
+              <span class="keyword">méthode</span>
+              
+              <span class="keyword">scrum</span>
+              
+              <span class="keyword">agile</span>
+              
+              <span class="keyword">cycle en v</span>
+              
+            </div>
+            
+          </div>
+        </header>
+        <div class="article-content markdown-body"><h1 id="utilisation-conjointe-du-cycle-en-v-et-des-méthodes-agile-dans-les-systèmes-à-logiciel-prépondérant-aéronautique-éolien-oil-gas-ferroviaire-dispositifs-médicaux-etc">Utilisation conjointe du cycle en V et des méthodes Agile dans les systèmes à logiciel prépondérant (aéronautique, éolien, oil &amp; gas, ferroviaire, dispositifs médicaux, etc.)</h1>
+<h2 id="1-introduction">1. Introduction</h2>
+<p>Les systèmes à logiciel prépondérant (software-intensive systems) imposent des exigences élevées en matière de qualité, traçabilité, sécurité et certification.<br />
+Le <strong>cycle en V</strong> s’est historiquement imposé pour sa rigueur, mais ses limites face à la complexité et aux besoins évolutifs ont conduit à intégrer des <strong>pratiques Agiles</strong> plus flexibles.<br />
+L’approche hybride répond à un double objectif :<br />
+- Maintenir la <strong>traçabilité et la rigueur</strong> exigées par les normes (ex : DO-178C, IEC 62304),<br />
+- Bénéficier de la <strong>réactivité et l’efficacité</strong> des itérations agiles.</p>
+<hr />
+<h2 id="2-contexte-et-enjeux">2. Contexte et enjeux</h2>
+<h3 id="exigences-typiques-des-systèmes-critiques">Exigences typiques des systèmes critiques :</h3>
+<p>- Fort besoin de <strong>validation/traçabilité</strong><br />
+- Dépendance aux <strong>normes industrielles</strong><br />
+- Multiplicité des intervenants (MOA, MOE, fournisseurs)<br />
+- Long cycle de développement<br />
+- Risque d’écart entre besoin exprimé et solution livrée</p>
+<hr />
+<h2 id="3-modèles-hybrides-documentés">3. Modèles hybrides documentés</h2>
+<p>a. V-Modell XT (Allemagne)</p>
+<p>- Cycles en V <strong>incrémentaux</strong> avec feedbacks<br />
+- Modèle modulaire configurable<br />
+- Utilisé en défense, IT publique</p>
+<h3 id="b-agile-v-ou-v-agile">b. Agile-V (ou V Agile)</h3>
+<p>- À gauche : planification (exigences, archi)<br />
+- En bas/droite : développement en mode <strong>Scrum</strong><br />
+- Tests dans les <strong>sprints</strong><br />
+- Validation dans le <strong>cadre du V</strong></p>
+<h3 id="c-double-v">c. Double V</h3>
+<p>- 1er V : <strong>modélisation/simulation</strong><br />
+- 2e V : <strong>réalisation/intégration</strong><br />
+- Utilisé avec <strong>prototypage virtuel</strong></p>
+<h3 id="d-safe-v-model">d. SAFe + V model</h3>
+<p>- Intégration de <strong>SAFe</strong> dans des projets en V<br />
+- Gouvernance par <strong>Agile Release Trains</strong><br />
+- Alignement des backlogs et exigences formelles</p>
+<hr />
+<h2 id="4-répartition-des-rôles">4. Répartition des rôles</h2>
+<table>
+<thead>
+<tr>
+<th>Rôle V classique</th>
+<th>Rôle Agile</th>
+<th>Rôle dans l’hybride</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maîtrise d’Ouvrage (MOA)</td>
+<td>Product Owner</td>
+<td>Priorise les besoins, maintient le backlog</td>
+</tr>
+<tr>
+<td>Maîtrise d’Œuvre (MOE)</td>
+<td>Scrum Team</td>
+<td>Implémente, itère sur les composants</td>
+</tr>
+<tr>
+<td>Architecte Système</td>
+<td>System Architect</td>
+<td>Définit la cohérence et les interfaces</td>
+</tr>
+<tr>
+<td>Responsable validation</td>
+<td>QA / Test Lead</td>
+<td>Conçoit et suit les plans de tests</td>
+</tr>
+<tr>
+<td>Comité de pilotage</td>
+<td>RTE / Epic Owner</td>
+<td>Supervise stratégie et conformité</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="5-normes-et-outils-associés">5. Normes et outils associés</h2>
+<p>- <strong>DO-178C</strong> (aéronautique)<br />
+- <strong>ISO 26262</strong> (automobile)<br />
+- <strong>IEC 62304</strong> (dispositifs médicaux)<br />
+- <strong>Outils recommandés</strong> :<br />
+  - <em>Polarion, Jama, Codebeamer</em> : exigences + backlog<br />
+  - <em>JIRA + XRay</em> : tests + traçabilité<br />
+  - <em>MBSE</em> (ex : Capella, SysML) pour la conception système. <em>Modelio</em></p>
+<hr />
+<h2 id="6-bonnes-pratiques">6. Bonnes pratiques</h2>
+<p>1. <strong>Cadencer l’agilité avec les jalons du V</strong><br />
+2. <strong>Documenter les artefacts agiles</strong> (User stories, DoD)<br />
+3. <strong>Assurer la traçabilité bidirectionnelle</strong><br />
+4. <strong>Mettre en place une gouvernance bimodale</strong><br />
+5. <strong>Former les équipes au double langage</strong> norme + agilité</p>
+<hr />
+<h2 id="7-illustration">7. Illustration</h2>
+<p><img src="/_resources/36253b21b5564043b9de82ab038c1363.png" /></p>
+<p>A_set_of_four_diagrams_in_the_French_language_illu.png</p>
+<p>Modèles hybrides et répartition des rôles</p>
+<hr />
+<h2 id="8-conclusion">8. Conclusion</h2>
+<p>L’intégration du cycle en V avec les méthodes Agile est non seulement possible mais **stratégiquement avantageuse** dans les projets à forte composante logicielle.<br />
+Les modèles hybrides offrent souplesse et rigueur, à condition d’organiser clairement les rôles, les processus, et la traçabilité.<br />
+C’est une voie d’avenir pour les systèmes critiques soumis à l’évolution rapide des besoins et des technologies.</p>
+<hr />
+<p> </p>
+<p> </p>
+</div>
+      </article>
+    </div>
+  </body>
+</html>
