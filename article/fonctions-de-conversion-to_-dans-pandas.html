@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link rel="stylesheet" href="/_assets/main.css" />
+
+    <title>Fonctions de conversion to_  dans Pandas - pradelf</title>
+  </head>
+  <body>
+    <div class="main">
+      <nav class="navigation">
+        <a href="/">pradelf</a>
+      </nav>
+      <article>
+        <header>
+          <h1 class="article-title">Fonctions de conversion to_  dans Pandas</h1>
+          <div class="article-info">
+            <div>
+              <span
+                >Created At：<time datetime="1749634017747"
+                  >2025-06-11 11:26</time
+                ></span
+              >
+              <span
+                >Updated At：<time datetime="1749634590045"
+                  >2025-06-11 11:36</time
+                ></span
+              >
+            </div>
+            
+            <div>
+              Keywords: 
+              <span class="keyword">pandas</span>
+              
+            </div>
+            
+          </div>
+        </header>
+        <div class="article-content markdown-body"><p>Fonctions de conversion to_ ...</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><span style="color:rgb(206, 212, 217)" class="jop-noMdConv">Fonction</span></th>
+<th style="text-align:left"><span style="color:rgb(206, 212, 217)" class="jop-noMdConv">Description</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">pandas.arrays.IntervalArray.to_tuples</td>
+<td style="text-align:left">Retourne un tableau de tuples (gauche, droite) représentant chaque intervalle.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DataFrame.sparse.to_coo</td>
+<td style="text-align:left">Convertit un DataFrame sparse en matrice COO (Compressed Sparse Row) de SciPy.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DataFrame.sparse.to_dense</td>
+<td style="text-align:left">Convertit un DataFrame sparse en DataFrame dense classique.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DataFrame.to_clipboard</td>
+<td style="text-align:left">Copie le DataFrame dans le presse-papier (ex : pour coller dans Excel).</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DataFrame.to_csv</td>
+<td style="text-align:left">Exporte le DataFrame dans un fichier texte CSV.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DataFrame.to_dict</td>
+<td style="text-align:left">Convertit le DataFrame en dictionnaire Python.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DataFrame.to_excel</td>
+<td style="text-align:left">Exporte le DataFrame dans un fichier Excel (.xlsx).</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DataFrame.to_feather</td>
+<td style="text-align:left">Enregistre le DataFrame au format binaire Feather (pour compatibilité rapide avec d'autres outils).</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DataFrame.to_gbq</td>
+<td style="text-align:left">Charge le DataFrame dans une table Google BigQuery.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DataFrame.to_hdf</td>
+<td style="text-align:left">Stocke le DataFrame dans un fichier HDF5.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DataFrame.to_html</td>
+<td style="text-align:left">Convertit le DataFrame en une table HTML.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DataFrame.to_json</td>
+<td style="text-align:left">Convertit le DataFrame en chaîne ou fichier JSON.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DataFrame.to_latex</td>
+<td style="text-align:left">Génère un tableau LaTeX à partir du DataFrame.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DataFrame.to_markdown</td>
+<td style="text-align:left">Convertit le DataFrame en table Markdown.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DataFrame.to_numpy</td>
+<td style="text-align:left">Convertit le DataFrame en tableau NumPy.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DataFrame.to_orc</td>
+<td style="text-align:left">Écrit le DataFrame au format ORC (Optimized Row Columnar).</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DataFrame.to_parquet</td>
+<td style="text-align:left">Exporte le DataFrame au format binaire Parquet (colonnes).</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DataFrame.to_period</td>
+<td style="text-align:left">Convertit l'index de date en PeriodIndex.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DataFrame.to_pickle</td>
+<td style="text-align:left">Sérialise le DataFrame avec pickle.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DataFrame.to_records</td>
+<td style="text-align:left">Transforme en tableau structuré NumPy (record array).</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DataFrame.to_sql</td>
+<td style="text-align:left">Insère les données du DataFrame dans une base SQL.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DataFrame.to_stata</td>
+<td style="text-align:left">Exporte vers un fichier compatible Stata (.dta).</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DataFrame.to_string</td>
+<td style="text-align:left">Retourne une représentation texte du DataFrame.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DataFrame.to_timestamp</td>
+<td style="text-align:left">Convertit l'index périodique en timestamps.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DataFrame.to_xarray</td>
+<td style="text-align:left">Convertit en structure xarray Dataset.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DataFrame.to_xml</td>
+<td style="text-align:left">Exporte le DataFrame au format XML.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DatetimeIndex.to_frame</td>
+<td style="text-align:left">Crée un DataFrame à partir du DatetimeIndex.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DatetimeIndex.to_period</td>
+<td style="text-align:left">Convertit en PeriodIndex selon une fréquence donnée.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DatetimeIndex.to_pydatetime</td>
+<td style="text-align:left">Retourne un tableau d'objets datetime Python natifs.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.DatetimeIndex.to_series</td>
+<td style="text-align:left">Transforme l'index en Series avec les mêmes valeurs.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Index.to_frame</td>
+<td style="text-align:left">Crée un DataFrame avec les valeurs de l'index.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Index.to_list</td>
+<td style="text-align:left">Convertit l'index en liste Python.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Index.to_series</td>
+<td style="text-align:left">Convertit l'index en Series pandas.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.IntervalIndex.to_tuples</td>
+<td style="text-align:left">Retourne un Index de tuples représentant les intervalles.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.io.formats.style.Styler.to_excel</td>
+<td style="text-align:left">Exporte un Styler stylisé vers un fichier Excel.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.io.formats.style.Styler.to_html</td>
+<td style="text-align:left">Exporte un Styler stylisé en HTML.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.io.formats.style.Styler.to_latex</td>
+<td style="text-align:left">Exporte un Styler stylisé en LaTeX.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.io.formats.style.Styler.to_string</td>
+<td style="text-align:left">Exporte un Styler stylisé en texte brut.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.MultiIndex.to_flat_index</td>
+<td style="text-align:left">Aplati un MultiIndex en un Index de tuples.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.MultiIndex.to_frame</td>
+<td style="text-align:left">Crée un DataFrame contenant les niveaux du MultiIndex.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Period.to_timestamp</td>
+<td style="text-align:left">Convertit un objet Period en Timestamp.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.PeriodIndex.to_timestamp</td>
+<td style="text-align:left">Convertit un PeriodIndex en DatetimeIndex.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Series.dt.to_period</td>
+<td style="text-align:left">Convertit une Series datetime en Series period.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Series.dt.to_pydatetime</td>
+<td style="text-align:left">Renvoie un tableau de datetime Python natifs.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Series.dt.to_pytimedelta</td>
+<td style="text-align:left">Renvoie des objets timedelta Python natifs.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Series.sparse.to_coo</td>
+<td style="text-align:left">Transforme une Series sparse avec MultiIndex en matrice COO.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Series.to_clipboard</td>
+<td style="text-align:left">Copie la Series dans le presse-papier.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Series.to_csv</td>
+<td style="text-align:left">Exporte la Series dans un fichier CSV.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Series.to_dict</td>
+<td style="text-align:left">Convertit la Series en dictionnaire.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Series.to_excel</td>
+<td style="text-align:left">Exporte la Series dans un fichier Excel.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Series.to_frame</td>
+<td style="text-align:left">Convertit une Series en DataFrame.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Series.to_hdf</td>
+<td style="text-align:left">Enregistre la Series dans un fichier HDF5.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Series.to_json</td>
+<td style="text-align:left">Convertit la Series en JSON.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Series.to_latex</td>
+<td style="text-align:left">Génère un tableau LaTeX depuis la Series.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Series.to_list</td>
+<td style="text-align:left">Convertit la Series en liste Python.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Series.to_markdown</td>
+<td style="text-align:left">Convertit la Series en table Markdown.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Series.to_numpy</td>
+<td style="text-align:left">Convertit la Series en tableau NumPy.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Series.to_period</td>
+<td style="text-align:left">Convertit une Series datetime en Series period.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Series.to_pickle</td>
+<td style="text-align:left">Sérialise la Series avec pickle.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Series.to_sql</td>
+<td style="text-align:left">Insère la Series dans une base SQL.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Series.to_string</td>
+<td style="text-align:left">Retourne une représentation texte de la Series.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Series.to_timestamp</td>
+<td style="text-align:left">Convertit une Series period en Series datetime.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Series.to_xarray</td>
+<td style="text-align:left">Convertit une Series en DataArray xarray.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Timedelta.to_numpy</td>
+<td style="text-align:left">Convertit un Timedelta en timedelta64 NumPy.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Timedelta.to_pytimedelta</td>
+<td style="text-align:left">Convertit un Timedelta pandas en timedelta Python.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Timedelta.to_timedelta64</td>
+<td style="text-align:left">Convertit un Timedelta en timedelta64 NumPy.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.TimedeltaIndex.to_frame</td>
+<td style="text-align:left">Crée un DataFrame à partir d’un TimedeltaIndex.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.TimedeltaIndex.to_pytimedelta</td>
+<td style="text-align:left">Retourne des timedelta Python natifs.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.TimedeltaIndex.to_series</td>
+<td style="text-align:left">Transforme l’index en Series pandas.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Timestamp.to_datetime64</td>
+<td style="text-align:left">Convertit un Timestamp en datetime64 NumPy.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Timestamp.to_julian_date</td>
+<td style="text-align:left">Convertit en date julienne (jour julien).</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Timestamp.to_numpy</td>
+<td style="text-align:left">Alias de to_datetime64 pour conversion en NumPy.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Timestamp.to_period</td>
+<td style="text-align:left">Convertit un Timestamp en Period.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.Timestamp.to_pydatetime</td>
+<td style="text-align:left">Convertit en datetime Python natif.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.to_datetime</td>
+<td style="text-align:left">Convertit une valeur en datetime pandas.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.to_numeric</td>
+<td style="text-align:left">Convertit une valeur en numérique (int/float).</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.to_timedelta</td>
+<td style="text-align:left">Convertit une valeur en timedelta pandas.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.tseries.frequencies.to_offset</td>
+<td style="text-align:left">Convertit une fréquence en objet offset pandas.</td>
+</tr>
+<tr>
+<td style="text-align:left">pandas.wide_to_long</td>
+<td style="text-align:left">Convertit un DataFrame large en format long.</td>
+</tr>
+</tbody>
+</table>
+</div>
+      </article>
+    </div>
+  </body>
+</html>
