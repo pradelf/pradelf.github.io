@@ -4,9 +4,22 @@
         <title></title>
         <link>undefined</link>
         <description>undefined</description>
-        <lastBuildDate>Wed, 11 Jun 2025 18:22:41 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Jun 2025 12:34:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Joplin Pages Publisher</generator>
+        <item>
+            <title><![CDATA[Notebook en cloud]]></title>
+            <guid>fbcbaa46c9704bb8a2682e5c6757d106</guid>
+            <pubDate>Wed, 18 Jun 2025 12:23:58 GMT</pubDate>
+            <content:encoded><![CDATA[<h1 id="notebook-en-cloud">Notebook en cloud</h1>
+<p>Des solutions alternatives a Collab et SageMaker.</p>
+<h2 id="lightning-for-notebook">Lightning for Notebook</h2>
+<p>Debug servers interactively with live traffic, then deploy from the same environment.<br />
+Autoscale across 6+ clouds. No code rewrites. Docker optional.</p>
+<p>https://lightning.ai</p>
+<p>Il est connectable avec vscode via une clé ssh.</p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Fonctions de conversion to_  dans Pandas]]></title>
             <guid>593bb8f24d814130afafd78879bf3a9c</guid>
@@ -1369,49 +1382,6 @@ Le réalisme magique est souvent utilisé pour représenter des traumatismes his
 <p>Dans Les Chroniques de Zhalie, Yan Lianke applique une approche proche du réalisme magique pour dénoncer les abus du régime chinois, notamment les effets du Grand Bond en Avant et de la Révolution culturelle. La magie y sert de métaphore pour exprimer l’indicible et rendre compte d’une vérité historique censurée.</p>
 <p>Conclusion<br />
 Le réalisme magique est bien plus qu’un simple procédé narratif : c’est une manière de contester l’hégémonie des récits historiques dominants et d’affirmer une identité culturelle résistante face au colonialisme. Il donne une voix aux oubliés de l’histoire et propose une autre façon de comprendre le monde, où mythe et réalité s’entrelacent pour mieux révéler les vérités profondes des sociétés postcoloniales.</p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Résumé de Cent ans de solitude de Gabriel García Márquez]]></title>
-            <guid>509a7c68057d41ac93902d9c1ac5f21a</guid>
-            <pubDate>Tue, 11 Feb 2025 17:06:33 GMT</pubDate>
-            <content:encoded><![CDATA[<h3 id="résumé-de-cent-ans-de-solitude-de-gabriel-garcía-márquez"><strong>Résumé de <em>Cent ans de solitude</em> de Gabriel García Márquez</strong></h3>
-<h4 id="contexte-et-réception"><strong>Contexte et réception</strong></h4>
-<p><em>Cent ans de solitude</em> (<em>Cien años de soledad</em>, 1967) est une œuvre emblématique du réalisme magique. Elle a eu un impact considérable sur la littérature mondiale et est souvent étudiée pour sa construction narrative innovante et sa représentation de l’histoire latino-américaine.</p>
-<h4 id="résumé-de-lintrigue"><strong>Résumé de l’intrigue</strong></h4>
-<p>Le roman suit la famille Buendía sur plusieurs générations dans le village fictif de Macondo, depuis sa fondation par José Arcadio Buendía jusqu'à sa destruction finale. L’œuvre est marquée par une temporalité cyclique où les événements et les noms se répètent, accentuant une impression de fatalité.</p>
-<h4 id="thèmes-principaux"><strong>Thèmes principaux</strong></h4>
-<ol>
-<li>
-<p><strong>Le mythe et l’histoire</strong></p>
-<ul>
-<li>Le roman intègre des événements historiques réels, tels que le massacre des ouvriers des bananeraies en 1928, qui est transformé en une légende collective au sein de la fiction.</li>
-<li>Il s’appuie sur une écriture qui allie réalisme historique et éléments surnaturels, une caractéristique clé du réalisme magique.</li>
-</ul>
-</li>
-<li>
-<p><strong>La solitude et la destinée</strong></p>
-<ul>
-<li>La solitude est le motif récurrent du roman, marquant le destin des Buendía. Chaque génération semble condamnée à répéter les erreurs des précédentes.</li>
-<li>L’enfermement psychologique et le repli sur soi sont accentués par l’isolement de Macondo, qui finit par être anéanti par une tempête biblique.</li>
-</ul>
-</li>
-<li>
-<p><strong>L’importance du langage et de l’écriture</strong></p>
-<ul>
-<li>Le personnage de Melquíades, le gitan, joue un rôle central dans la narration en rédigeant des manuscrits prophétiques que les Buendía tentent de décrypter.</li>
-<li>À la fin du roman, Aureliano Babilonia découvre que le destin de sa famille était déjà écrit, instaurant une réflexion sur le rôle de la narration et du destin.</li>
-</ul>
-</li>
-</ol>
-<h4 id="structure-narrative-et-style"><strong>Structure narrative et style</strong></h4>
-<ul>
-<li><strong>Narration circulaire</strong> : L’histoire fonctionne en boucle, suggérant que le temps n’est pas linéaire mais répétitif, une idée renforcée par la répétition des noms au sein de la famille.</li>
-<li><strong>Registre épique et symbolisme</strong> : Le style de García Márquez puise dans les traditions orales et bibliques, créant une mythologie propre à Macondo.</li>
-<li><strong>Alternance entre réalisme et merveilleux</strong> : Des événements invraisemblables, comme l’ascension au ciel de Remedios la Belle ou la peste de l’oubli, sont relatés avec le même sérieux que des faits historiques.</li>
-</ul>
-<h4 id="conclusion"><strong>Conclusion</strong></h4>
-<p><em>Cent ans de solitude</em> est une fresque historique et mythologique qui explore l’histoire de la Colombie et de l’Amérique latine à travers une lignée familiale emblématique. Le roman se clôt sur l’idée que tout était écrit d’avance, renforçant une vision du destin où le passé ne cesse de se répéter, jusqu’à l’anéantissement final de Macondo.</p>
 ]]></content:encoded>
         </item>
     </channel>
