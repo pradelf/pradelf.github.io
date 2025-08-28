@@ -4,9 +4,101 @@
         <title></title>
         <link>undefined</link>
         <description>undefined</description>
-        <lastBuildDate>Wed, 18 Jun 2025 13:40:56 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 28 Aug 2025 12:59:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Joplin Pages Publisher</generator>
+        <item>
+            <title><![CDATA[Design Tools]]></title>
+            <guid>6272ed0ae1b644f294936375fa7d9146</guid>
+            <pubDate>Thu, 28 Aug 2025 12:08:24 GMT</pubDate>
+            <content:encoded><![CDATA[<h1 id="design-tools">Design Tools</h1>
+<p>Dans le tableau ci-dessous, vous trouverez la liste d'outil de modélisation et leur utilité.</p>
+<p> </p>
+<table>
+<thead>
+<tr>
+<th>Nom</th>
+<th>Site</th>
+<th>Description</th>
+<th>Type</th>
+<th>Format</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Draw.io</td>
+<td><a title="https://app.diagrams.net" href="https://app.diagrams.net">https://app.diagrams.net</a></td>
+<td>Editeur de tout type de diagramme</td>
+<td>Opensource, web et Natif</td>
+<td>UML, BPMN, divers</td>
+</tr>
+<tr>
+<td>Visio</td>
+<td></td>
+<td>Editeur de tout type de diagramme de Microsoft</td>
+<td>Propriétaire, Natif</td>
+<td>UML, BPMN, divers</td>
+</tr>
+<tr>
+<td>Mermaid</td>
+<td><a title="https://mermaid.js.org" href="https://mermaid.js.org">https://mermaid.js.org</a></td>
+<td>JavaScript based diagramming and charting tool that renders Markdown-inspired text definitions to create and modify diagrams dynamically.</td>
+<td>Opensource, Web et plugin</td>
+<td>UML, BPMN, SYSML, divers</td>
+</tr>
+<tr>
+<td>modelio</td>
+<td><a title="https://www.modelio.org" href="https://www.modelio.org">https://www.modelio.org</a></td>
+<td>Modelio is a modeling solution offering a wide range of functionality based on commonly used standards for enterprise architecture, software development and systems engineering.</td>
+<td>Opensource et propriétaire, natif sur base eclipse</td>
+<td>UML, SYSML,BPMN, TOGAF, Archimate</td>
+</tr>
+<tr>
+<td>Visual Paradigm</td>
+<td><a title="https://www.visual-paradigm.com" href="https://www.visual-paradigm.com">https://www.visual-paradigm.com</a></td>
+<td>The #1 Development Tool Suite that drives your project to success. A suite of design, analysis and management tools to drive your IT project development and digital transformation.  <br class="jop-noMdConv" />Le plus complet</td>
+<td>Propriétaire, Web et Natif</td>
+<td>UML, SYSML, BPMN, TOGAF, divers</td>
+</tr>
+<tr>
+<td>Capella</td>
+<td><a title="https://mbse-capella.org" href="https://mbse-capella.org">https://mbse-capella.org</a></td>
+<td>Eclipse Capella™ is a comprehensive, extensible and field-proven MBSE tool and method to successfully design systems architecture</td>
+<td>Opensource et propriétaire, natif sur base eclipse</td>
+<td></td>
+</tr>
+<tr>
+<td>lucidchart</td>
+<td><a title="https://www.lucidchart.com" href="https://www.lucidchart.com">https://www.lucidchart.com</a></td>
+<td>Logiciel de diagramme en ligne : Profitez de puissantes fonctionnalités qui aideront votre équipe à communiquer des idées complexes et à collaborer en temps réel.</td>
+<td>Propriétaire Web</td>
+<td>UML, SYSML, BPMN, TOGAF, divers</td>
+</tr>
+<tr>
+<td>Papyrus</td>
+<td><a title="https://eclipse.dev/papyrus/" href="https://eclipse.dev/papyrus/">https://eclipse.dev/papyrus/</a></td>
+<td>Eclipse Papyrus is an industrial-grade open source Model-Based Engineering tool. Eclipse Papyrus has notably been used successfuly in industrial projects and is the base platform for several industrial modeling tools.</td>
+<td>Opensource  natif sur base eclipse</td>
+<td>UML</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Notebook en cloud]]></title>
             <guid>fbcbaa46c9704bb8a2682e5c6757d106</guid>
@@ -1323,66 +1415,6 @@ C’est une voie d’avenir pour les systèmes critiques soumis à l’évolutio
 <p>Chaque phase de spécification sur la branche gauche possède ainsi son <strong>miroir de validation</strong> sur la branche droite du V. Par exemple, les tests unitaires valident la bonne implémentation des composants définis lors de la conception détaillée, les tests d’intégration vérifient que l’architecture conçue en phase de conception générale fonctionne, les tests système valident que le produit final respecte les spécifications élaborées pendant l’analyse, et enfin les tests d’acceptation confirment que le produit satisfait les besoins initiaux du client​ <a title="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=codage%20%3B%20,20" href="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=codage%20%3B%20,20">fr.wikipedia.org</a> <a title="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=,sa%20conformit%C3%A9%20aux%20besoins%20exprim%C3%A9s" href="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=,sa%20conformit%C3%A9%20aux%20besoins%20exprim%C3%A9s">fr.wikipedia.org</a>. Ce découpage strict apporte une grande <strong>rigueur</strong> et une <strong>traçabilité</strong> : chaque exigence formulée en amont est associée à un ou plusieurs tests en aval, garantissant qu’aucun besoin n’est oublié et que le produit final est conforme aux attentes​ <a title="https://monday.com/blog/fr/gestion-du-travail/cycle-en-v/#:~:text=En%20outre%2C%20chaque%20%C3%A9tape%20de,%C3%A0%20chaque%20%C3%A9tape%20du%20projet" href="https://monday.com/blog/fr/gestion-du-travail/cycle-en-v/#:~:text=En%20outre%2C%20chaque%20%C3%A9tape%20de,%C3%A0%20chaque%20%C3%A9tape%20du%20projet">monday.com</a>.</p>
 <p><strong>En résumé,</strong> le schéma en V offre une vue d’ensemble claire du cycle de vie d’un projet, où l’on distingue nettement la progression descendante de la conception et la remontée ascendante de la validation. Cette représentation symétrique permet de visualiser facilement les liens de cause à effet entre chaque étape du développement et son processus de test associé, assurant une validation systématique à chaque niveau du projet et une qualité maîtrisée du produit final​ <a title="https://monday.com/blog/fr/gestion-du-travail/cycle-en-v/#:~:text=En%20outre%2C%20chaque%20%C3%A9tape%20de,%C3%A0%20chaque%20%C3%A9tape%20du%20projet" href="https://monday.com/blog/fr/gestion-du-travail/cycle-en-v/#:~:text=En%20outre%2C%20chaque%20%C3%A9tape%20de,%C3%A0%20chaque%20%C3%A9tape%20du%20projet">monday.com</a>.</p>
 <p><strong>Sources :</strong> Le modèle du cycle en V et ses étapes sont documentés par de nombreuses références, notamment Wikipédia​ <a title="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=Le%20cycle%20en%20V%20,s%C3%A9quentielle%20et%20lin%C3%A9aire%20de%20phases" href="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=Le%20cycle%20en%20V%20,s%C3%A9quentielle%20et%20lin%C3%A9aire%20de%20phases">fr.wikipedia.org</a> <a title="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=,18" href="https://fr.wikipedia.org/wiki/Cycle_en_V#:~:text=,18">fr.wikipedia.org</a>, ainsi que des guides de gestion de projet récents​ <a title="https://asana.com/fr/resources/v-model#:~:text=Le%20cycle%20en%20V%20est,tests%20unitaires%2C%20int%C3%A9gration%2C%20acceptation" href="https://asana.com/fr/resources/v-model#:~:text=Le%20cycle%20en%20V%20est,tests%20unitaires%2C%20int%C3%A9gration%2C%20acceptation">asana.com</a>. Ces sources décrivent comment « chaque étape de conception est suivie d’une phase de validation correspondante » dans le cycle en V, depuis l’expression des besoins jusqu’aux tests d’acceptation, garantissant « une grande rigueur et une traçabilité à chaque étape du projet »<a title="https://monday.com/blog/fr/gestion-du-travail/cycle-en-v/#:~:text=En%20outre%2C%20chaque%20%C3%A9tape%20de,%C3%A0%20chaque%20%C3%A9tape%20du%20projet" href="https://monday.com/blog/fr/gestion-du-travail/cycle-en-v/#:~:text=En%20outre%2C%20chaque%20%C3%A9tape%20de,%C3%A0%20chaque%20%C3%A9tape%20du%20projet">monday.com</a>.</p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Le réalisme magique]]></title>
-            <guid>b64a7f8886544a9d9ec051249869a2f0</guid>
-            <pubDate>Tue, 11 Feb 2025 17:14:42 GMT</pubDate>
-            <content:encoded><![CDATA[<p>Le réalisme magique est un mouvement littéraire qui mêle des éléments réalistes et fantastiques de manière indissociable, créant un univers où le surnaturel est intégré au quotidien sans provoquer d’étonnement chez les personnages. Ce concept est souvent associé à la littérature latino-américaine, mais il a des manifestations ailleurs, notamment en Inde et en Chine.</p>
-<p>Origines et définition<br />
-Le terme a été popularisé par Alejo Carpentier, écrivain cubain, qui parle du « réel merveilleux » dans la préface d’El reino de este mundo (Le Royaume de ce monde, 1949). Il y oppose le merveilleux artificiel des récits européens à un merveilleux inhérent à la réalité latino-américaine, où l’histoire et le mythe se fondent dans une même perception du monde.</p>
-<p>Le critique Franz Roh avait déjà utilisé l’expression magischer Realismus en 1925 pour décrire une tendance de la peinture allemande qui alliait réalisme et étrangeté. Dans le domaine littéraire, la notion a ensuite été développée par des écrivains et critiques comme Luis Leal, Angel Flores ou encore Jean Weisgerber.</p>
-<p>Caractéristiques du réalisme magique<br />
-Une réalité enrichie par l’imaginaire<br />
-→ Des éléments surnaturels apparaissent dans des contextes réalistes et sont acceptés sans explication rationnelle.<br />
-Exemple : Dans Cent ans de solitude de Gabriel García Márquez, les tapis volants et les ascensions célestes sont relatés avec le même naturel que les événements politiques ou familiaux.<br />
-Un traitement particulier du temps et de l’espace<br />
-→ Le temps est souvent cyclique, mythique, ou suspendu, et les lieux prennent une dimension symbolique forte.<br />
-Exemple : Macondo, ville fictive de Cent ans de solitude, est à la fois un espace réaliste et un lieu où le temps semble se répéter éternellement.<br />
-Un mélange de culture populaire et d’histoire politique<br />
-→ Le réalisme magique s’appuie sur les traditions orales, les légendes et la mythologie tout en intégrant une critique historique ou sociale.<br />
-Exemple : Les Enfants de minuit de Salman Rushdie raconte l’histoire de l’Inde postcoloniale à travers une narration empreinte de magie et de métamorphoses.<br />
-Une ambiguïté entre le rêve et la réalité<br />
-→ Les frontières entre ce qui est réel et ce qui ne l’est pas sont floues, ce qui crée une atmosphère onirique et parfois déroutante.<br />
-Exemples d’auteurs et d’œuvres<br />
-Gabriel García Márquez (Cent ans de solitude, L’Amour aux temps du choléra)<br />
-Alejo Carpentier (Le Royaume de ce monde, Le Siècle des Lumières)<br />
-Salman Rushdie (Les Enfants de minuit, Les Versets sataniques)<br />
-Isabel Allende (La Maison aux esprits)<br />
-Yan Lianke (La Fuite du temps, Les Chroniques de Zhalie)<br />
-Le réalisme magique est souvent perçu comme une forme de résistance culturelle, une manière de raconter l’histoire des peuples marginalisés en intégrant leurs mythes et leur vision du monde.</p>
-<p>Est-ce que tu cherches à approfondir un aspect particulier, par exemple la différence entre réalisme magique et fantastique, ou son lien avec l’histoire coloniale ?</p>
-<p>Vous avez dit :<br />
-Peux-tu approfondir le lien avec l’histoire coloniale?<br />
-ChatGPT a dit :<br />
-Le réalisme magique entretient un lien étroit avec l’histoire coloniale, notamment dans les littératures latino-américaine, indienne et chinoise. Ce mode narratif permet de représenter les réalités complexes du post-colonialisme en mêlant le merveilleux et le quotidien, soulignant ainsi la tension entre l’héritage des cultures autochtones et l’imposition des modèles occidentaux.</p>
-<ol>
-<li>Une esthétique de la résistance face au discours colonial<br />
-Les récits du réalisme magique proposent souvent une réécriture de l’histoire en donnant la parole à ceux qui en ont été exclus : peuples indigènes, esclaves, classes populaires. Plutôt que de raconter l’histoire selon les cadres rationnels et eurocentrés, le réalisme magique privilégie une approche où le mythe et la mémoire collective sont aussi valides que les archives officielles.</li>
-</ol>
-<p>Exemple : Alejo Carpentier et « Le réel merveilleux »</p>
-<p>Dans la préface de Le Royaume de ce monde (1949), Carpentier théorise le « réel merveilleux » en insistant sur le fait que l’histoire des Caraïbes est marquée par des événements si extraordinaires qu’ils semblent surnaturels. Il évoque la révolte haïtienne menée par Toussaint Louverture, qui dépasse l’entendement occidental : des esclaves illettrés, inspirés par des visions mystiques et des rituels vaudous, renversent l’une des plus puissantes armées du monde. Ici, la magie devient une force de libération face à l’oppression coloniale.</p>
-<ol start="2">
-<li>Une hybridité culturelle et linguistique<br />
-Le réalisme magique incarne aussi le mélange des cultures propre aux sociétés postcoloniales. La langue elle-même est souvent hybride, mêlant espagnol, créole, hindi ou chinois avec des références à des cosmologies locales. Cela reflète l’impact du colonialisme, qui a souvent imposé des langues et des récits dominants tout en tentant d’effacer les traditions orales et indigènes.</li>
-</ol>
-<p>Exemple : Salman Rushdie et le « chutnification » de l’histoire</p>
-<p>Dans Les Enfants de minuit (1981), Salman Rushdie adopte un style qui mêle l’anglais à des tournures et expressions indiennes. Son narrateur, Saleem Sinai, compare son récit au processus de fabrication du chutney : un mélange d’ingrédients qui transforme le goût de l’histoire officielle. Ici, le réalisme magique permet de raconter l’histoire de l’Inde post-indépendance d’une manière fragmentée, métaphorique et subjective, en opposition aux versions officielles du passé.</p>
-<ol start="3">
-<li>Le rapport au temps : mythe et colonialisme<br />
-Le réalisme magique remet en cause la linéarité du temps imposée par le colonialisme et le modernisme. Plutôt que de suivre une progression logique et rationnelle, le récit adopte souvent une structure cyclique, reflétant une perception du temps plus proche des traditions orales et indigènes.</li>
-</ol>
-<p>Exemple : Gabriel García Márquez et le temps cyclique</p>
-<p>Dans Cent ans de solitude (1967), le village de Macondo vit dans une boucle temporelle où les événements historiques se répètent inlassablement. Cette vision du temps peut être interprétée comme une critique du colonialisme et des dictatures latino-américaines : malgré les révolutions et les changements politiques, l’oppression et l’exploitation persistent sous d’autres formes.</p>
-<ol start="4">
-<li>La mémoire traumatique et la réécriture du passé<br />
-Le réalisme magique est souvent utilisé pour représenter des traumatismes historiques liés à la colonisation, comme l’esclavage, les guerres d’indépendance, les génocides ou les famines. Plutôt que d’adopter un discours historique factuel, il privilégie une mémoire vivante, hantée par les esprits du passé.</li>
-</ol>
-<p>Exemple : Yan Lianke et la réécriture de l’histoire chinoise</p>
-<p>Dans Les Chroniques de Zhalie, Yan Lianke applique une approche proche du réalisme magique pour dénoncer les abus du régime chinois, notamment les effets du Grand Bond en Avant et de la Révolution culturelle. La magie y sert de métaphore pour exprimer l’indicible et rendre compte d’une vérité historique censurée.</p>
-<p>Conclusion<br />
-Le réalisme magique est bien plus qu’un simple procédé narratif : c’est une manière de contester l’hégémonie des récits historiques dominants et d’affirmer une identité culturelle résistante face au colonialisme. Il donne une voix aux oubliés de l’histoire et propose une autre façon de comprendre le monde, où mythe et réalité s’entrelacent pour mieux révéler les vérités profondes des sociétés postcoloniales.</p>
 ]]></content:encoded>
         </item>
     </channel>
